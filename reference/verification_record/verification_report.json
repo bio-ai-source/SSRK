@@ -1,0 +1,118 @@
+{
+ "level": "B (full retraining in results/)",
+ "counts": {
+  "PASS": 18,
+  "FAIL": 0,
+  "NOT RUN": 0
+ },
+ "checks": [
+  {
+   "area": "exact_gaussian",
+   "check": "eval_main: bitwise vs reference (23 items)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "area": "exact_gaussian",
+   "check": "eval_low: bitwise vs reference (23 items)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "area": "exact_gaussian",
+   "check": "eval_all: bitwise vs reference (24 items)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "area": "exact_gaussian",
+   "check": "ablation_R1: bitwise vs reference (23 items)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "area": "exact_gaussian",
+   "check": "ablation_R5: bitwise vs reference (23 items)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "area": "exact_gaussian",
+   "check": "ablation_nosharpen: bitwise vs reference (23 items)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "area": "exact_gaussian",
+   "check": "ablation_noentropy: bitwise vs reference (23 items)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "area": "exact_gaussian",
+   "check": "ablation_noctx: bitwise vs reference (23 items)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "area": "exact_gaussian",
+   "check": "tuning: bitwise vs reference (18 items)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "area": "exact_gaussian",
+   "check": "swap_audit: bitwise vs reference (4 items)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "area": "exact_gaussian",
+   "check": "Tables 1, A4, A5, A6 byte-identical to the paper; 78 numbers (the 2 compute times excepted)",
+   "status": "PASS",
+   "detail": "numbers: 78/78 equal to the printed strings; app.max_excess_over_q at printed precision (0.010229 at a=0.20, q=0.15); 2 machine-dependent timings not compared (app.eval_minutes: 13 here vs 17 printed, app.ablation_minutes: 11 here vs 29 printed)"
+  },
+  {
+   "area": "exact_gaussian",
+   "check": "Figure A1 panel data",
+   "status": "PASS",
+   "detail": "Figure A1 panel data: byte-identical to reference/exact_gaussian/figureA1_panel_data.csv"
+  },
+  {
+   "area": "pbmc",
+   "check": "bootstrap refits: W, Wall, selections, ARI/NMI/markers bitwise (20/20 units)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "area": "pbmc",
+   "check": "Table A10 identical to the paper rows; 5 stability claims of Sec. 5.3 and App. A.6",
+   "status": "PASS",
+   "detail": "11/11 checks true"
+  },
+  {
+   "area": "uci_har",
+   "check": "training seeds: W, Wall (3 restarts), selections, HNI, domain imbalance bitwise (20/20)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "area": "uci_har",
+   "check": "five-seed evaluator records identical (20/20 units)",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "area": "paired",
+   "check": "70 contrasts (gap, BCa interval, sign-randomization p, Holm) identical to the original record",
+   "status": "PASS",
+   "detail": ""
+  },
+  {
+   "area": "paired",
+   "check": "Table A3 byte-identical; 52/4/14 decisions; 16 claims (Abstract, Sec. 5.1, 5.3-5.5, App. A.3.2)",
+   "status": "PASS",
+   "detail": "decisions: SSRK 52 / baseline 4 / n.s. 14 | table: PASS; in-text claims: PASS (16/16)"
+  }
+ ]
+}

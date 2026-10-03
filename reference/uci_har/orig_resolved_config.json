@@ -1,0 +1,31 @@
+{
+ "source": "original research code: revised/cr2/scripts/ssrk_v3.py make_config('uci_har', 1122, {'gate_parameterization': 'symmetric', 'restarts': 3}) (configs/paper.yaml + matched-protocol BASE + overrides)",
+ "config": {
+  "encoder_dims": [
+   512,
+   256,
+   128
+  ],
+  "model_latent_dim": 64,
+  "decoder_dims": [
+   128,
+   256,
+   512
+  ],
+  "temperature": 0.82,
+  "use_batchnorm": true,
+  "epochs": 100,
+  "batch_size": 256,
+  "lr": 0.0003,
+  "lr_gate_factor": 0.07,
+  "lambda_entropy": 0.0025,
+  "mask_prob": 0.4,
+  "stage1_frac": 0.48,
+  "freeze_gates_stage1": true,
+  "entropy_weighting": "gap",
+  "gate_parameterization": "symmetric"
+ },
+ "restarts": 3,
+ "reference": "permutation",
+ "settings": {}
+}

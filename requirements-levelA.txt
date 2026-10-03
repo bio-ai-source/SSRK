@@ -1,0 +1,11 @@
+# Level A only (verify.py --from-reference): recomputes every reported number from the shipped records on the CPU.
+# Needs neither torch nor a GPU (Python 3.12).
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.6
+scikit-learn==1.9.1
+threadpoolctl==3.7.0
+anndata==0.13.4
+h5py==3.16.0
+matplotlib==3.11.2
+pytest==9.1.1

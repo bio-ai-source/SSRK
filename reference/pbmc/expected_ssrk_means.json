@@ -1,0 +1,9 @@
+{
+ "source": "revised/cr2/results/paired_v3_final.csv (ssrk_mean, dataset pbmc)",
+ "means": {
+  "ARI": 0.35486954134334037,
+  "NMI": 0.5818746438567548,
+  "MarkerHits": 14.0,
+  "CoverageScore": 2.7999999999999994
+ }
+}

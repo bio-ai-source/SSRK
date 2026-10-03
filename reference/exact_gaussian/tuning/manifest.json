@@ -1,0 +1,134 @@
+{
+  "tuning_signal_seeds": [
+    5000,
+    5001,
+    5002,
+    5003,
+    5004,
+    5005,
+    5006,
+    5007,
+    5008,
+    5009,
+    5010,
+    5011,
+    5012,
+    5013,
+    5014,
+    5015,
+    5016,
+    5017,
+    5018,
+    5019
+  ],
+  "tuning_null_seeds": [
+    6000,
+    6001,
+    6002,
+    6003,
+    6004,
+    6005,
+    6006,
+    6007,
+    6008,
+    6009,
+    6010,
+    6011,
+    6012,
+    6013,
+    6014,
+    6015,
+    6016,
+    6017,
+    6018,
+    6019
+  ],
+  "algorithm_base": 7000,
+  "grid": {
+    "T01_R1_lr2e-2_e150": [
+      {},
+      1
+    ],
+    "T02_R5_lr2e-2_e150": [
+      {},
+      5
+    ],
+    "T03_R10_lr2e-2_e150": [
+      {},
+      10
+    ],
+    "T04_R20_lr2e-2_e150": [
+      {},
+      20
+    ],
+    "T05_R10_lr5e-3_e150": [
+      {
+        "lr_gate": 0.005
+      },
+      10
+    ],
+    "T06_R10_lr5e-3_e300": [
+      {
+        "lr_gate": 0.005,
+        "epochs": 300
+      },
+      10
+    ],
+    "T07_R10_lr2e-2_e150_nosharpen": [
+      {
+        "lambda_stage2": 0.0
+      },
+      10
+    ],
+    "T08_R10_lr2e-2_e150_noctx": [
+      {
+        "use_target_context": false,
+        "target_mask_prob": 1.0
+      },
+      10
+    ]
+  },
+  "amplitudes": [
+    0.2,
+    0.3
+  ],
+  "selection_rule": "Predeclared before running: choose the configuration with the largest mean power at q=0.10, averaged over the tuning amplitudes, on tuning seeds only; among configurations within 0.01 of the best, choose the one with the smallest cost (restarts x epochs). FDR is not a selection criterion because it is controlled by construction for every configuration.",
+  "selection": {
+    "scores": {
+      "T01_R1_lr2e-2_e150": 0.21666666666666667,
+      "T02_R5_lr2e-2_e150": 0.5741666666666666,
+      "T03_R10_lr2e-2_e150": 0.7275,
+      "T04_R20_lr2e-2_e150": 0.8166666666666667,
+      "T05_R10_lr5e-3_e150": 0.7674999999999998,
+      "T06_R10_lr5e-3_e300": 0.7741666666666666,
+      "T07_R10_lr2e-2_e150_nosharpen": 0.7324999999999999,
+      "T08_R10_lr2e-2_e150_noctx": 0.6575000000000001
+    },
+    "cost": {
+      "T01_R1_lr2e-2_e150": 150,
+      "T02_R5_lr2e-2_e150": 750,
+      "T03_R10_lr2e-2_e150": 1500,
+      "T04_R20_lr2e-2_e150": 3000,
+      "T05_R10_lr5e-3_e150": 1500,
+      "T06_R10_lr5e-3_e300": 3000,
+      "T07_R10_lr2e-2_e150_nosharpen": 1500,
+      "T08_R10_lr2e-2_e150_noctx": 1500
+    },
+    "chosen": "T04_R20_lr2e-2_e150",
+    "override": {},
+    "restarts": 20
+  },
+  "env": {
+    "python": "3.12.12 (main, Feb  3 2026, 22:54:57) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "gpu": "NVIDIA GeForce RTX 4090 Laptop GPU",
+    "numpy": "2.5.3",
+    "cublas_workspace": ":4096:8",
+    "deterministic": true,
+    "tf32": false,
+    "command": "-"
+  },
+  "note": "tuning_summary.csv rebuilt from the per-config row files after a CSV-header bug in the summary writer; no fits were rerun"
+}

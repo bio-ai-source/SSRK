@@ -1,0 +1,29 @@
+{
+ "source": "original research code: revised/cr2/scripts/ssrk_v3.py make_config('pbmc', 1719, {'epochs': 200, 'gate_parameterization': 'symmetric'}) (configs/paper.yaml + matched-protocol BASE + overrides)",
+ "config": {
+  "encoder_dims": [
+   256,
+   128
+  ],
+  "model_latent_dim": 32,
+  "decoder_dims": [
+   128,
+   256
+  ],
+  "temperature": 1.0,
+  "use_batchnorm": true,
+  "epochs": 200,
+  "batch_size": 128,
+  "lr": 0.0003,
+  "lr_gate_factor": 0.05,
+  "lambda_entropy": 0.005,
+  "mask_prob": 0.5,
+  "stage1_frac": 0.5,
+  "freeze_gates_stage1": true,
+  "entropy_weighting": "gap",
+  "gate_parameterization": "symmetric"
+ },
+ "restarts": 1,
+ "reference": "independent",
+ "settings": {}
+}

@@ -1,0 +1,266 @@
+{
+ "description": "SSRK PBMC matched-protocol records (EVAL_pbmc_e200sym) and stored baseline selections",
+ "files": {
+  "units/000.json": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/000.json",
+   "sha256": "57ccab6c80f06d7e229b0ceccb880d65299225009d705aaddbb3a5e6a5105c3c"
+  },
+  "units/000_W.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/000_W.npy",
+   "sha256": "c74f64cc5c59c6cc8c5da1e4783677afce51aa319db7a7913b1fac4399565570"
+  },
+  "units/000_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/000_Wall.npy",
+   "sha256": "ad1580927094049f620eedae8c2c58ff965b32e4355a148b8851cc4ab8cb24ab"
+  },
+  "units/001.json": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/001.json",
+   "sha256": "50ba3ab8483a863a6cf0f83591ade39c2fef8d1bd388000e78eb5acae2cc0b93"
+  },
+  "units/001_W.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/001_W.npy",
+   "sha256": "801f7932613a73a819de988d77761f4ac14bf284cd317005aa5dacf73e09eb55"
+  },
+  "units/001_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/001_Wall.npy",
+   "sha256": "078f51cf1e61469def457ecf411e6842d30ed6491ac7f3cb490b790bda47d3fb"
+  },
+  "units/002.json": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/002.json",
+   "sha256": "84e69e27cf696fbccb736665ed9289679491d59779764d839afd705ff4d077d7"
+  },
+  "units/002_W.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/002_W.npy",
+   "sha256": "25d3f98cfd753d4afce636a7da9a34f5ecd72df47201923c3d7e8601c9aaf6e6"
+  },
+  "units/002_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/002_Wall.npy",
+   "sha256": "1cadf41c56eadf5529ccb1bd48e6d73c1157d9de7ae3a770cf73dde73d29a6f6"
+  },
+  "units/003.json": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/003.json",
+   "sha256": "1f572d5f907063c476aae58bf8fa9024ea814b998f061ed81307c131f8f22f7d"
+  },
+  "units/003_W.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/003_W.npy",
+   "sha256": "532556a20d64ac1f89b321a3698efbe09d6f31030d6f3f1eccb10753598b1a33"
+  },
+  "units/003_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/003_Wall.npy",
+   "sha256": "f4eaf22d78dc89e9afb6b074de72b1085e02778c94f2ce4829a47efcd8cac54c"
+  },
+  "units/004.json": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/004.json",
+   "sha256": "6c4426b03cbcb002e679d29d36d3af14ed24a63a44555a8e4d2b689afd0a3d33"
+  },
+  "units/004_W.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/004_W.npy",
+   "sha256": "babd65dad2c7c8c5c00dd502e89b7daf60a845e99edc019655673673411b3b93"
+  },
+  "units/004_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/004_Wall.npy",
+   "sha256": "8877c84afed226da3c2f39ce7c9185706bbc0398290d02744e92db700f1ff2a9"
+  },
+  "units/005.json": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/005.json",
+   "sha256": "5d41b688eb1978fa64aae7b22ee828ffd2dc7f90d75ed88d2391877e9e215438"
+  },
+  "units/005_W.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/005_W.npy",
+   "sha256": "6579bdda3f11f012f364b5e429b88ded327f6b963375c9774c72aa2b5afaa7dd"
+  },
+  "units/005_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/005_Wall.npy",
+   "sha256": "9aced161e3b68d593ed31c6e15156debc420ee5d6d82dd784a953f2fb3cb0e71"
+  },
+  "units/006.json": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/006.json",
+   "sha256": "5d14c690381b65ebbc7e6cc75a1e0fc28c3802e2d0b9889b83874fc1c2c64264"
+  },
+  "units/006_W.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/006_W.npy",
+   "sha256": "6ac8ff6a7408242eecd648ee0efe08ac2b9b7769ddc66073790a34d2f17211e2"
+  },
+  "units/006_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/006_Wall.npy",
+   "sha256": "2594ce291195ac93e39d63245eb90c799c3e91e47017209ece2752a27817fa58"
+  },
+  "units/007.json": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/007.json",
+   "sha256": "8a905b760b0384175cb14962289f7d3a2e6fa117d53576cec739066ee760ccb6"
+  },
+  "units/007_W.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/007_W.npy",
+   "sha256": "d232595eceea2ee3b0ade86b5744c09b3422dbd6a55996defa7c20821af9d7d8"
+  },
+  "units/007_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/007_Wall.npy",
+   "sha256": "343005ef2af85adee5884f4e5917b3101c319734a78a4589f34b493bf895f9dd"
+  },
+  "units/008.json": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/008.json",
+   "sha256": "52225a2f5589609508a2d872b94edca096ac4316024df520ecc147ddfc425434"
+  },
+  "units/008_W.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/008_W.npy",
+   "sha256": "f03fd110831964b53d2c6d5f709484774cea9f8bcc50cd52e2c8f57e25e2ae02"
+  },
+  "units/008_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/008_Wall.npy",
+   "sha256": "f7c2ed612ca7f01cb26a2107b13b579d6048d026f3d9498733a9a0c9a8c0531d"
+  },
+  "units/009.json": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/009.json",
+   "sha256": "a16bb1b7c68779f4a0b54ad858571061ec097616c5e06afdd2d252b4b0063f89"
+  },
+  "units/009_W.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/009_W.npy",
+   "sha256": "d280b17ec9271959c2c41b62e9b88986d67cf1697c0b230327e82136bf78bbfe"
+  },
+  "units/009_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/009_Wall.npy",
+   "sha256": "756092332c692159ea7c73385f3d8318f069e249bb741155f2c4b80c7ee0a2a2"
+  },
+  "units/010.json": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/010.json",
+   "sha256": "e5a78b6f945554a2ae19353a76319ab9bdff7e20195e2a4b1ce1a7fed019a81e"
+  },
+  "units/010_W.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/010_W.npy",
+   "sha256": "9b214ffaa79bc57aee7df426c2b100cea66928380ac70aa93a3cb6943f4b362e"
+  },
+  "units/010_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/010_Wall.npy",
+   "sha256": "61370c9254e8d54a5e49dffd1868b54bbee613526ebc641e7a2fc6a8c5b5f4d3"
+  },
+  "units/011.json": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/011.json",
+   "sha256": "2c3f736b2f1b8b19effc67b5c5058e82cef77bae1740131c5d8328346159ad18"
+  },
+  "units/011_W.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/011_W.npy",
+   "sha256": "f274a10285f97f035219ed4e08e4d6d0535b5a583815088f0db73d999398ce99"
+  },
+  "units/011_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/011_Wall.npy",
+   "sha256": "88361ed494efc6a66d68994c6d00b3f534a33a3505644cb56f5c0c4192b3c633"
+  },
+  "units/012.json": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/012.json",
+   "sha256": "8e68051d3d1945b87cf476f92068c54f9b02f18ae433aa266f385501a1096a83"
+  },
+  "units/012_W.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/012_W.npy",
+   "sha256": "bd6f6bae6ca8ee9a201eea96a00c6aeb17cc08bcafded7ec4319a8d0cc8a0d9e"
+  },
+  "units/012_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/012_Wall.npy",
+   "sha256": "5cc0d3cfa8309e5ff8ec0797195e7a2f7b0a90b4342177e3ff33a90783483f2b"
+  },
+  "units/013.json": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/013.json",
+   "sha256": "b9474df027cf7fc182953ecc7c6c256e2b62e4c624114c54282bb78c21abddef"
+  },
+  "units/013_W.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/013_W.npy",
+   "sha256": "1fa24a39336f14681d6ce71d0dfdd21a333a426c0cb3346fe6c1ba10bc24284e"
+  },
+  "units/013_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/013_Wall.npy",
+   "sha256": "85e9284ac34c747a0770a4d2e816c5c44f7609dde235ef88e4e526ed59797e8c"
+  },
+  "units/014.json": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/014.json",
+   "sha256": "d64840b8f0e7e7c4db991e5efe0acc0789abba429f53da08433101e3718dae76"
+  },
+  "units/014_W.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/014_W.npy",
+   "sha256": "061f234ea430d0e7beb1dd94b0e9bd277c848fd910ad43d9da1f839c4eb0c7ff"
+  },
+  "units/014_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/014_Wall.npy",
+   "sha256": "c9982aa4aec64f44dda22ab12f02f0931e6d60b61619b234016d0e88bee7d465"
+  },
+  "units/015.json": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/015.json",
+   "sha256": "295a998f0baaf489a4a152ad103f580f13a623a7fd2a87018cfd25569dd3e14d"
+  },
+  "units/015_W.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/015_W.npy",
+   "sha256": "d0e390d98f2c2b0e0f7b7e2cb4c87e5a0511c592350547fa9b7439ee25afd03f"
+  },
+  "units/015_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/015_Wall.npy",
+   "sha256": "6ba4ab7c1e5da5d3023eae8f4497785135bfcbee2d675a810acf7dc36dbeae29"
+  },
+  "units/016.json": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/016.json",
+   "sha256": "bf92880ae4ba0d1b36fa50cf5bf6936613db857f5974c976875ae95d6d73602b"
+  },
+  "units/016_W.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/016_W.npy",
+   "sha256": "12366b0021b764cab3f051b0cae27790adbc5574a668e36cd52800703223bebe"
+  },
+  "units/016_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/016_Wall.npy",
+   "sha256": "3801a59497923e3ddc18dbf9e771f5512ce34cdd86795ed98aa7ce4de46f5ee3"
+  },
+  "units/017.json": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/017.json",
+   "sha256": "810b7ee911b6e31460de156da2fca3ef223a57f759b911d7ffcd385bf6dcb076"
+  },
+  "units/017_W.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/017_W.npy",
+   "sha256": "59cf14911b50f99fc4a00d8c3a560a9b45c4a3bbeabaad3d70465e84d77d7823"
+  },
+  "units/017_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/017_Wall.npy",
+   "sha256": "0434a11e81772593dde532605a4521476f04f7d8ad1831ca5f14c5f6c031853e"
+  },
+  "units/018.json": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/018.json",
+   "sha256": "4093d422c44bca2fbd7cecc280cb8699299fda0eedc36b2c4c0df268f8d4b5dc"
+  },
+  "units/018_W.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/018_W.npy",
+   "sha256": "d8e571e2f44597834591476f4b56725b456711b3d5b583f6aa9b1dca60b6cafd"
+  },
+  "units/018_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/018_Wall.npy",
+   "sha256": "242b3586345ef81f07aa39257aebe4f2d21654308a8d44d0f901b5d1a24a2c3b"
+  },
+  "units/019.json": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/019.json",
+   "sha256": "290c9b102d263ec1a8cf14d6b096acfaa88a632529072ee28d6478c308031ffd"
+  },
+  "units/019_W.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/019_W.npy",
+   "sha256": "7f98365bfb91b3e162515f3b264e4bf6ae03071443115847eee43798c3503380"
+  },
+  "units/019_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/019_Wall.npy",
+   "sha256": "211aaccdaf2c70a26fd074b175ada56865a6b8dde58a2991e9bd6f37032004b1"
+  },
+  "units/orig_config.json": {
+   "orig": "revised/cr2/results/EVAL_pbmc_e200sym/pbmc/config.json",
+   "sha256": "41cefa45c44939a8dcc08b0888456df0816333e6321e45eb73d67024979e375d"
+  },
+  "baseline_selections.csv": {
+   "orig": "revised/results/local_minimal_v2_exact/01_pbmc_exact_top100_per_run.csv (rows method != SSRK; columns bootstrap_id, seed, method, selection_size, selected_indices)",
+   "sha256_orig": "12d61fc9ebc7706f480887fef999b8ed2119d698e0ebe25265a26f80d87c8761"
+  },
+  "fill_nr_numbers_stability.json": {
+   "orig": "revised/cr2/results/tables_v3/fill_nr_numbers.json (sections stability_pairwise_recomputed, stability_aggregation_recomputed, consensus_vs_consensus, marker_universe, score_arrays_match_stored_sets)",
+   "sha256_orig": "b7ac2150c650f926a2912ef6b0b74f63f91c25ec66627aecf736a4bb079dd1d3"
+  },
+  "stability_body_paper.tex": {
+   "orig": "paper neurips_2026.tex (final version), body of Table A8 (LaTeX label tab:pbmc_stability; source lines 921-930); equal to revised/cr2/results/tables_v3/stability_body.tex except that the Variance row carries no asterisk",
+   "sha256": "cabb6aed4ad7c9ff8b84d807e2edbde957b1564f8b6218451541f5772a4ad2d4",
+   "sha256_orig": "5d16859071a15800c27fec4209a8065532bff1523eff1bc012ac7ac660c784b2"
+  },
+  "paper_stability_excerpts.tex": {
+   "orig": "paper neurips_2026.tex (final version), source lines 333 (Sec. 5.3) and 911 (App. A.5, paragraph Stability), verbatim after four comment lines; read by experiments/pbmc/stability.py (paper_claims)",
+   "sha256": "ae8f04c7074844e7a4d1eccab73865f62efd0fd644159478d585dcabff46f2bc"
+  }
+ }
+}

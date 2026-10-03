@@ -1,0 +1,45 @@
+{
+ "date": "2026-10-03",
+ "what": "bash run_all.sh from a clean copy of the release, environment created from requirements.txt (uv, Python 3.12.12); UCI HAR archive taken from an earlier run of data/download.py and verified by it",
+ "exact_gaussian_env": {
+  "python": "3.12.12 (main, Feb  3 2026, 22:54:57) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "torch": "2.5.1+cu121",
+  "cuda": "12.1",
+  "gpu": "NVIDIA GeForce RTX 4090 Laptop GPU",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "pandas": "3.0.6",
+  "cublas_workspace": ":4096:8",
+  "deterministic": true,
+  "tf32": false,
+  "command": "experiments/exact_gaussian/run.py main"
+ },
+ "pbmc_env": {
+  "python": "3.12.12",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "sklearn": "1.9.1",
+  "pandas": "3.0.6",
+  "anndata": "0.13.4",
+  "h5py": "3.16.0",
+  "threadpoolctl": "3.7.0",
+  "torch": "2.5.1+cu121",
+  "cuda_available": true,
+  "cuda": "12.1",
+  "cudnn": 90100,
+  "gpu": "NVIDIA GeForce RTX 4090 Laptop GPU",
+  "CUBLAS_WORKSPACE_CONFIG": ":4096:8"
+ },
+ "wall_clock": {
+  "total": "04:05:52-05:31:11 (85 min)",
+  "data": "1 s (archive present)",
+  "tests": "28 s",
+  "exact_gaussian (main, ablation, tune, audit, tables, figure)": "38 min",
+  "pbmc (20 refits + stability)": "11 min",
+  "uci_har (20 seeds x 3 restarts + five-seed evaluator)": "35.5 min",
+  "paired + verify": "26 s"
+ }
+}

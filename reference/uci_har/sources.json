@@ -1,0 +1,294 @@
+{
+ "description": "SSRK UCI HAR matched-protocol records (EVAL_uci_symR3) and merged five-seed evaluator records",
+ "files": {
+  "units/000.json": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/000.json",
+   "sha256": "6f731908561970e84c985df163c5140f2853b142aa33801f54d86459b1c19d22"
+  },
+  "units/000_W.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/000_W.npy",
+   "sha256": "498c35722a30cc2e4a864a114fefc5a05ee144797432c4892d9c99a8b04e1c3a"
+  },
+  "units/000_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/000_Wall.npy",
+   "sha256": "bb9aa681a66f64206faca615c36349d9331614c129dcfa55cd79e216eb4f761c"
+  },
+  "units/001.json": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/001.json",
+   "sha256": "fd4b716439ad1c74e1e52d745722a7096e1ad2b94edf2d9cc15f2af46c724d3e"
+  },
+  "units/001_W.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/001_W.npy",
+   "sha256": "233be6aba4546324bf6bf78ddcd584798a7cf18c1831c260c6a6aa30f8f4ae24"
+  },
+  "units/001_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/001_Wall.npy",
+   "sha256": "16ae850f4798215ae9a5bc2a7fd46ba1e166a9c8cd4b2200ff45af39342cf750"
+  },
+  "units/002.json": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/002.json",
+   "sha256": "9b689e790ce6514746156986073e3f53534120ec8c6f348bf5e6b56af0611d97"
+  },
+  "units/002_W.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/002_W.npy",
+   "sha256": "0fe33a1ea8dca43e08eea0dbeff41459c3bec64b44d9c93649301c2c80f47b83"
+  },
+  "units/002_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/002_Wall.npy",
+   "sha256": "f070a5f335b278897c837586787984f289f7d99bf8ec001ff86b347548202550"
+  },
+  "units/003.json": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/003.json",
+   "sha256": "6ff63324028ea8b4129885fc042b65eea45ee9df0337a1de7664357c79c4f88b"
+  },
+  "units/003_W.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/003_W.npy",
+   "sha256": "7917f8fd5edb8b8375715da71b40b57aefa4097bf93b03ac662aa5ef9f9893b3"
+  },
+  "units/003_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/003_Wall.npy",
+   "sha256": "953f3653ad28460b839ca1de05acffa81bd3a332ce3536c18846577c19b02765"
+  },
+  "units/004.json": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/004.json",
+   "sha256": "97ea7ab10c370810c8a55996be050b3a408b24b6ddff81e48de3dc6ac2cc0fd4"
+  },
+  "units/004_W.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/004_W.npy",
+   "sha256": "4226cd85150073d2f06ec97cdc248778864278b343b40f96f92c1d0a65d8c954"
+  },
+  "units/004_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/004_Wall.npy",
+   "sha256": "8e32334ac99654144e4e0f6b8c941d4e811a59c589f6caee2849d230b10f0182"
+  },
+  "units/005.json": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/005.json",
+   "sha256": "fd336962acfddef6610cf8127c5fc17d609a18c50e19f9c5344f673d15259c4e"
+  },
+  "units/005_W.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/005_W.npy",
+   "sha256": "38f880074c162ec363739773cb969821892f57d2142ef27e9584eac834e1e28c"
+  },
+  "units/005_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/005_Wall.npy",
+   "sha256": "41ac5d289a8879f839736a39937e182c52c445a35bae66fce80a0fcbb3969c47"
+  },
+  "units/006.json": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/006.json",
+   "sha256": "8eb89cd18ffbe866c4860693382eebeddaf3e4d6181f74b1cbbcf42464a60761"
+  },
+  "units/006_W.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/006_W.npy",
+   "sha256": "c4b06039b4a69a9d18a358c5a62cc870d5234de362db95782d58f6968762dcae"
+  },
+  "units/006_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/006_Wall.npy",
+   "sha256": "74d391631deab015898430d438e2942a390becdd78b46c7023141fd1ff2b0961"
+  },
+  "units/007.json": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/007.json",
+   "sha256": "21becf97d5d6e28b412c3c6c5226b91d6d297f91192749ae46ae1d5eac857ccc"
+  },
+  "units/007_W.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/007_W.npy",
+   "sha256": "ae87536ca42f8068cfc67afab6f5d8017e78e14c3a8bc3ba5ad8732e1b895eca"
+  },
+  "units/007_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/007_Wall.npy",
+   "sha256": "35be4b0478c9b97bc84f6b807cd18da654d5d0c8329d50e4821e65d3077bd053"
+  },
+  "units/008.json": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/008.json",
+   "sha256": "783cf269804e8ff9b07b0f336ee5dc3c138ca8e9ffd75ada16a3cbb5f3236dc5"
+  },
+  "units/008_W.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/008_W.npy",
+   "sha256": "2ebc6d5e31ac8fd3423c4826a421e26e33bcd6776b67b95e829746c13de1546e"
+  },
+  "units/008_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/008_Wall.npy",
+   "sha256": "b874bc0ebefb275b8221ffb8bae0f9453de10b611ff093d10c8f20325561d634"
+  },
+  "units/009.json": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/009.json",
+   "sha256": "397c0ed038dc1f646634e8ee80135c8fd96e20e77c65f78bf67aac5efcdb350d"
+  },
+  "units/009_W.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/009_W.npy",
+   "sha256": "47001c759dd3529648c4e05e9f2979d35345fb0b4de672072f78c2ecc72c013c"
+  },
+  "units/009_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/009_Wall.npy",
+   "sha256": "2791daf14e132e2df18d6ee76b65007adf7fa9738131afec9d8acf9048f1d9cb"
+  },
+  "units/010.json": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/010.json",
+   "sha256": "a102cb7e9d58272ebb9740ed6c9732ea160643af9fa1437f52b228c53ed373e1"
+  },
+  "units/010_W.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/010_W.npy",
+   "sha256": "95af7fc363274abca1a390f13b04d1df5094b43d3f61eb0083e707f5276e266b"
+  },
+  "units/010_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/010_Wall.npy",
+   "sha256": "3400a041c5554589e85eb59157ac5804c5faa4e3d6b18937fa847b992f00bdcc"
+  },
+  "units/011.json": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/011.json",
+   "sha256": "d6da108412126daa137cbf39ea26ebf27efa135c1e24e3e5b5641db7fbaf9fe6"
+  },
+  "units/011_W.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/011_W.npy",
+   "sha256": "24d8d8d86621c721241e098a30eba8b7dd0912ae39905bda19d5725f79442e8a"
+  },
+  "units/011_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/011_Wall.npy",
+   "sha256": "5b76a493d7ca3b8e8ac05c690d02a28b203cafca1ac1d5b2270c338819b6d0ee"
+  },
+  "units/012.json": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/012.json",
+   "sha256": "548acaa9c9144bdc384f1fd4307799875fe9ae6235fb485e97e1d7a236cffa15"
+  },
+  "units/012_W.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/012_W.npy",
+   "sha256": "93c7345357af411d9d007d97e21cf565dd1e651e3b4fa11f402c1c403335608a"
+  },
+  "units/012_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/012_Wall.npy",
+   "sha256": "26eba58259eab5e76d8cc11ae2fb0362449cb1726a40a6a601da983e1734c5a6"
+  },
+  "units/013.json": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/013.json",
+   "sha256": "5e3842b660ecbe0ced7e7da74439fa3539f9390d8964b742e4d5d34eb95c49bc"
+  },
+  "units/013_W.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/013_W.npy",
+   "sha256": "71cad722d0d48516cc7592adb68d7c6467fe3b0d83c7041c21f3eb7b46247b19"
+  },
+  "units/013_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/013_Wall.npy",
+   "sha256": "473a118f05a2ce47aaa13b41969ec5e879c47a42f1f3f2470e00bddaf812849b"
+  },
+  "units/014.json": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/014.json",
+   "sha256": "6316fd8a40e95b67f23af05b8b133ec324fdc5dd0b1db44441fd2b9aa988f53d"
+  },
+  "units/014_W.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/014_W.npy",
+   "sha256": "cadc7a5733289c1a70ab72aade0c1287724bf7def1f658282e86ee50094501bf"
+  },
+  "units/014_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/014_Wall.npy",
+   "sha256": "194222139c7143c85c2b508cb372c291dfce182766264e12e9d06e4ddd031164"
+  },
+  "units/015.json": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/015.json",
+   "sha256": "8879331ebcc8f9ba59c89d11d59a3174c2b20edc77f4dbfe02fc3abcd2eba5b6"
+  },
+  "units/015_W.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/015_W.npy",
+   "sha256": "cd58d061739707220188755e3c4460f2e83704a5f33ff908777f69fb5b51c476"
+  },
+  "units/015_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/015_Wall.npy",
+   "sha256": "f1e89a36d06970464333dfb823c48f5af203c1b56ee85f110ac6efdd11bcaa9a"
+  },
+  "units/016.json": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/016.json",
+   "sha256": "22efe1cea29eb2248af1c8fa1bf382b508c5b8f4fda2c0c7fa1152cdbbb6ff58"
+  },
+  "units/016_W.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/016_W.npy",
+   "sha256": "d4dde5436d6ec259bd5f8d6d027331e522a83a06069fb0d5ba622289c28c2ab1"
+  },
+  "units/016_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/016_Wall.npy",
+   "sha256": "a7079ae533652a993634f3e0d603ad0af1d286c6806c53900920a4afb983fa66"
+  },
+  "units/017.json": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/017.json",
+   "sha256": "19789c3c96d06cc231882311faeabd90f192fa687c6d154364bfb838b64d11bc"
+  },
+  "units/017_W.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/017_W.npy",
+   "sha256": "0ac6af509aa7afb1733c890f001f9668172c1cbc08e7c6a17ab82b862d61a7fc"
+  },
+  "units/017_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/017_Wall.npy",
+   "sha256": "c8679cb81a065e6e65f1c6d017e17c5f1f52a8d720efb3828e099e0ac58c38aa"
+  },
+  "units/018.json": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/018.json",
+   "sha256": "252b7bc9a3d5ca3d0aa50f7c0738c11db214c1e533f492afdc30989714b0ed06"
+  },
+  "units/018_W.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/018_W.npy",
+   "sha256": "a6c622dea861e1b9a968a48fc55ad3af455e8a1ca649919210447e53ab222794"
+  },
+  "units/018_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/018_Wall.npy",
+   "sha256": "742f0f69163091a316b73a81116317cb959ea9fc72c52b027d0f9a6d7f52da65"
+  },
+  "units/019.json": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/019.json",
+   "sha256": "ddc8b512300c30c301da2469e205a45cf044f9226e190e69e309f7bef21b0344"
+  },
+  "units/019_W.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/019_W.npy",
+   "sha256": "552db8e46820689d16131c4a52f12970ab1e9fc214bb829207aac5f0a1164023"
+  },
+  "units/019_Wall.npy": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/019_Wall.npy",
+   "sha256": "3a3b809c2af1964260ed970b6deadf05336af30d0121fd9d47f70c952fd1aa44"
+  },
+  "units/orig_config.json": {
+   "orig": "revised/cr2/results/EVAL_uci_symR3/uci_har/config.json",
+   "sha256": "33e05cd6303ff982fa3c68a804dd90de7c3b2d34cdfb557e968d9555d3746060"
+  },
+  "eval5.json": {
+   "orig": "revised/cr2/results/uci_eval5/EVAL_uci_symR3_{u0,u1,u2,u3,u4,99}.json merged",
+   "unit_to_file": {
+    "006_SSRK": "EVAL_uci_symR3_99.json",
+    "014_SSRK": "EVAL_uci_symR3_99.json",
+    "012_SSRK": "EVAL_uci_symR3_99.json",
+    "008_SSRK": "EVAL_uci_symR3_99.json",
+    "016_SSRK": "EVAL_uci_symR3_99.json",
+    "009_SSRK": "EVAL_uci_symR3_99.json",
+    "017_SSRK": "EVAL_uci_symR3_99.json",
+    "011_SSRK": "EVAL_uci_symR3_99.json",
+    "019_SSRK": "EVAL_uci_symR3_99.json",
+    "005_SSRK": "EVAL_uci_symR3_99.json",
+    "013_SSRK": "EVAL_uci_symR3_99.json",
+    "010_SSRK": "EVAL_uci_symR3_99.json",
+    "018_SSRK": "EVAL_uci_symR3_99.json",
+    "007_SSRK": "EVAL_uci_symR3_99.json",
+    "015_SSRK": "EVAL_uci_symR3_99.json",
+    "000_SSRK": "EVAL_uci_symR3_u0.json",
+    "001_SSRK": "EVAL_uci_symR3_u1.json",
+    "002_SSRK": "EVAL_uci_symR3_u2.json",
+    "003_SSRK": "EVAL_uci_symR3_u3.json",
+    "004_SSRK": "EVAL_uci_symR3_u4.json"
+   },
+   "sha256_orig": {
+    "EVAL_uci_symR3_99.json": "4842ca38e68a85c71bb4294ca1433b251cde1fa49f2027c6b31e1b4f91c85785",
+    "EVAL_uci_symR3_u0.json": "b7938b9ffb98e72810674ae255dd7c4bb6c1e7ef92d2c862d958524d72129b1d",
+    "EVAL_uci_symR3_u1.json": "6ef7897571073077009168623c85954cf2b21d8267712e40fe892e05fd4d8127",
+    "EVAL_uci_symR3_u2.json": "831b6cc1c4621e0d1dc709d3527938f5bc0dfd656779630f940ae2c2b14c429a",
+    "EVAL_uci_symR3_u3.json": "8fce228eaca680bf8fc4e84c806e187e97944283ad53821aed8ee8ff5c6c7123",
+    "EVAL_uci_symR3_u4.json": "610d11a7923321c82089b40e766cd6982027cfa55244709674b07b46ade0c3de"
+   }
+  },
+  "baseline_selections.csv": {
+   "orig": "revised/results/local_minimal_v2_exact/03_uci_exact_per_run.csv (rows status == ok and method != SSRK, original order; columns seed, unit = (seed - 31000) / 997, method, selection_size, selected_indices copied verbatim: the 384 real-feature indices of each stored selection); read by experiments/uci_har/rescore.py --with-baselines",
+   "sha256": "98dc50733c9834958398f4602cf08dee00ed5ca52a1da6fd22fec1d7326ee91e",
+   "sha256_orig": "58fd6d5cc33adcbf1c4a2b0144e986f8743f0fe7e48712a117765b09141da003"
+  },
+  "features.txt": {
+   "orig": "UCI HAR Dataset/features.txt of the official UCI archive, unmodified (CC BY 4.0; attribution in README_features.md); read by experiments/uci_har/rescore.py when the dataset is not downloaded",
+   "sha256": "b384889885b1c8680ecf250e0e605b4c79536cdf09ce9f2fa7225a3c6773b5c7"
+  },
+  "README_features.md": {
+   "orig": "attribution and license of features.txt (written for this package)"
+  }
+ }
+}

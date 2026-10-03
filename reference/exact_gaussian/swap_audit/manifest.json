@@ -1,0 +1,16 @@
+{
+  "trajectories": 100,
+  "epochs": 150,
+  "env": {
+    "python": "3.12.12 (main, Feb  3 2026, 22:54:57) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "torch": "2.5.1+cu121",
+    "cuda": "12.1",
+    "gpu": "NVIDIA GeForce RTX 4090 Laptop GPU",
+    "numpy": "2.5.3",
+    "cublas_workspace": ":4096:8",
+    "deterministic": true,
+    "tf32": false,
+    "command": "revised/experiments/run_fixed_target_gate_gpu.py audit --trajectories 100 --audit-epochs 150"
+  }
+}

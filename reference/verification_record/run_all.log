@@ -1,0 +1,304 @@
+
+=== 0/6 data: verify shipped PBMC file, download + verify UCI HAR  [2026-10-03 04:05:52] ===
+data directory: data
+PBMC 3k (processed AnnData, Zenodo 3886414)
+  [OK] pbmc/pbmc3k_processed.h5ad
+UCI HAR (UCI Machine Learning Repository, id 240)
+  [MISSING] uci_har/UCI HAR Dataset/features.txt
+  [MISSING] uci_har/UCI HAR Dataset/activity_labels.txt
+  [MISSING] uci_har/UCI HAR Dataset/train/X_train.txt
+  [MISSING] uci_har/UCI HAR Dataset/train/y_train.txt
+  [MISSING] uci_har/UCI HAR Dataset/train/subject_train.txt
+  [MISSING] uci_har/UCI HAR Dataset/test/X_test.txt
+  [MISSING] uci_har/UCI HAR Dataset/test/y_test.txt
+  [MISSING] uci_har/UCI HAR Dataset/test/subject_test.txt
+  [MISSING] uci_har/UCI HAR Dataset/README.txt
+  [MISSING] uci_har/UCI HAR Dataset/features_info.txt
+  using cached archive data/_downloads/human+activity+recognition+using+smartphones.zip
+  unpacking inner archive 'UCI HAR Dataset.zip'
+  [extracted] uci_har/UCI HAR Dataset/features.txt
+  [extracted] uci_har/UCI HAR Dataset/activity_labels.txt
+  [extracted] uci_har/UCI HAR Dataset/train/X_train.txt
+  [extracted] uci_har/UCI HAR Dataset/train/y_train.txt
+  [extracted] uci_har/UCI HAR Dataset/train/subject_train.txt
+  [extracted] uci_har/UCI HAR Dataset/test/X_test.txt
+  [extracted] uci_har/UCI HAR Dataset/test/y_test.txt
+  [extracted] uci_har/UCI HAR Dataset/test/subject_test.txt
+  [extracted] uci_har/UCI HAR Dataset/README.txt
+  [extracted] uci_har/UCI HAR Dataset/features_info.txt
+  [OK] uci_har/UCI HAR Dataset/features.txt
+  [OK] uci_har/UCI HAR Dataset/activity_labels.txt
+  [OK] uci_har/UCI HAR Dataset/train/X_train.txt
+  [OK] uci_har/UCI HAR Dataset/train/y_train.txt
+  [OK] uci_har/UCI HAR Dataset/train/subject_train.txt
+  [OK] uci_har/UCI HAR Dataset/test/X_test.txt
+  [OK] uci_har/UCI HAR Dataset/test/y_test.txt
+  [OK] uci_har/UCI HAR Dataset/test/subject_test.txt
+  [OK] uci_har/UCI HAR Dataset/README.txt
+  [OK] uci_har/UCI HAR Dataset/features_info.txt
+all requested datasets verified
+
+=== 1/6 unit tests  [2026-10-03 04:05:53] ===
+........sssssssss...sssssssss...s....................................... [ 51%]
+....................................................................     [100%]
+121 passed, 19 skipped in 25.74s
+
+=== 2/6 exact Gaussian fixed-target study (~45 min)  [2026-10-03 04:06:21] ===
+{"model": "all_null", "signal": 0.0, "q": 0.05, "datasets": 100, "FDP_mean": 0.0, "FDP_ci_low": 0.0, "FDP_ci_high": 0.0, "FDP_sd": 0.0, "selection_size_mean": 0.0, "selection_size_ci_low": 0.0, "selection_size_ci_high": 0.0, "selection_size_sd": 0.0, "empty_rate": 1.0, "conditional_FDP_nonempty": NaN, "nonempty_count": 0, "nonempty_upper95": 0.0295}
+{"model": "all_null", "signal": 0.0, "q": 0.1, "datasets": 100, "FDP_mean": 0.0, "FDP_ci_low": 0.0, "FDP_ci_high": 0.0, "FDP_sd": 0.0, "selection_size_mean": 0.0, "selection_size_ci_low": 0.0, "selection_size_ci_high": 0.0, "selection_size_sd": 0.0, "empty_rate": 1.0, "conditional_FDP_nonempty": NaN, "nonempty_count": 0, "nonempty_upper95": 0.0295}
+{"model": "all_null", "signal": 0.0, "q": 0.15, "datasets": 100, "FDP_mean": 0.01, "FDP_ci_low": 0.0, "FDP_ci_high": 0.03, "FDP_sd": 0.1, "selection_size_mean": 0.07, "selection_size_ci_low": 0.0, "selection_size_ci_high": 0.21, "selection_size_sd": 0.7, "empty_rate": 0.99, "conditional_FDP_nonempty": 1.0, "nonempty_count": 1, "nonempty_upper95": 0.0466}
+{"model": "signal", "signal": 0.3, "q": 0.05, "datasets": 50, "FDP_mean": 0.0325, "FDP_ci_low": 0.0206, "FDP_ci_high": 0.0458, "FDP_sd": 0.0459, "power_mean": 0.908, "power_ci_low": 0.8833, "power_ci_high": 0.9307, "power_sd": 0.0861, "selection_size_mean": 28.28, "selection_size_ci_low": 27.3, "selection_size_ci_high": 29.26, "selection_size_sd": 3.5688, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.0325, "nonempty_count": 50}
+{"model": "signal", "signal": 0.3, "q": 0.1, "datasets": 50, "FDP_mean": 0.1077, "FDP_ci_low": 0.0853, "FDP_ci_high": 0.1316, "FDP_sd": 0.085, "power_mean": 0.972, "power_ci_low": 0.9627, "power_ci_high": 0.9807, "power_sd": 0.0318, "selection_size_mean": 33.04, "selection_size_ci_low": 31.98, "selection_size_ci_high": 34.18, "selection_size_sd": 4.0151, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.1077, "nonempty_count": 50}
+{"model": "signal", "signal": 0.3, "q": 0.15, "datasets": 50, "FDP_mean": 0.1504, "FDP_ci_low": 0.1242, "FDP_ci_high": 0.1772, "FDP_sd": 0.0966, "power_mean": 0.9853, "power_ci_low": 0.9787, "power_ci_high": 0.9913, "power_sd": 0.0235, "selection_size_mean": 35.32, "selection_size_ci_low": 34.0395, "selection_size_ci_high": 36.68, "selection_size_sd": 4.8126, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.1504, "nonempty_count": 50}
+{"model": "signal", "signal": 0.4, "q": 0.05, "datasets": 50, "FDP_mean": 0.0331, "FDP_ci_low": 0.0215, "FDP_ci_high": 0.0465, "FDP_sd": 0.0458, "power_mean": 0.9927, "power_ci_low": 0.9873, "power_ci_high": 0.9973, "power_sd": 0.0182, "selection_size_mean": 30.88, "selection_size_ci_low": 30.42, "selection_size_ci_high": 31.44, "selection_size_sd": 1.8587, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.0331, "nonempty_count": 50}
+{"model": "signal", "signal": 0.4, "q": 0.1, "datasets": 50, "FDP_mean": 0.0986, "FDP_ci_low": 0.0783, "FDP_ci_high": 0.1203, "FDP_sd": 0.0772, "power_mean": 0.998, "power_ci_low": 0.9953, "power_ci_high": 1.0, "power_sd": 0.008, "selection_size_mean": 33.48, "selection_size_ci_low": 32.64, "selection_size_ci_high": 34.4, "selection_size_sd": 3.1959, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.0986, "nonempty_count": 50}
+{"model": "signal", "signal": 0.4, "q": 0.15, "datasets": 50, "FDP_mean": 0.1506, "FDP_ci_low": 0.1254, "FDP_ci_high": 0.1762, "FDP_sd": 0.0935, "power_mean": 0.998, "power_ci_low": 0.9953, "power_ci_high": 1.0, "power_sd": 0.008, "selection_size_mean": 35.7, "selection_size_ci_low": 34.58, "selection_size_ci_high": 36.86, "selection_size_sd": 4.2052, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.1506, "nonempty_count": 50}
+{"model": "signal", "signal": 0.5, "q": 0.05, "datasets": 50, "FDP_mean": 0.0287, "FDP_ci_low": 0.0187, "FDP_ci_high": 0.0403, "FDP_sd": 0.0392, "power_mean": 1.0, "power_ci_low": 1.0, "power_ci_high": 1.0, "power_sd": 0.0, "selection_size_mean": 30.94, "selection_size_ci_low": 30.6, "selection_size_ci_high": 31.34, "selection_size_sd": 1.3463, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.0287, "nonempty_count": 50}
+{"model": "signal", "signal": 0.5, "q": 0.1, "datasets": 50, "FDP_mean": 0.1071, "FDP_ci_low": 0.0877, "FDP_ci_high": 0.1276, "FDP_sd": 0.0732, "power_mean": 1.0, "power_ci_low": 1.0, "power_ci_high": 1.0, "power_sd": 0.0, "selection_size_mean": 33.84, "selection_size_ci_low": 33.06, "selection_size_ci_high": 34.7, "selection_size_sd": 3.0463, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.1071, "nonempty_count": 50}
+{"model": "signal", "signal": 0.5, "q": 0.15, "datasets": 50, "FDP_mean": 0.1514, "FDP_ci_low": 0.1244, "FDP_ci_high": 0.1795, "FDP_sd": 0.0996, "power_mean": 1.0, "power_ci_low": 1.0, "power_ci_high": 1.0, "power_sd": 0.0, "selection_size_mean": 35.88, "selection_size_ci_low": 34.6595, "selection_size_ci_high": 37.2, "selection_size_sd": 4.6363, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.1514, "nonempty_count": 50}
+{"model": "signal", "signal": 0.75, "q": 0.05, "datasets": 50, "FDP_mean": 0.0307, "FDP_ci_low": 0.0207, "FDP_ci_high": 0.0416, "FDP_sd": 0.0384, "power_mean": 1.0, "power_ci_low": 1.0, "power_ci_high": 1.0, "power_sd": 0.0, "selection_size_mean": 31.0, "selection_size_ci_low": 30.66, "selection_size_ci_high": 31.38, "selection_size_sd": 1.3093, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.0307, "nonempty_count": 50}
+{"model": "signal", "signal": 0.75, "q": 0.1, "datasets": 50, "FDP_mean": 0.0987, "FDP_ci_low": 0.0791, "FDP_ci_high": 0.1182, "FDP_sd": 0.0718, "power_mean": 1.0, "power_ci_low": 1.0, "power_ci_high": 1.0, "power_sd": 0.0, "selection_size_mean": 33.5, "selection_size_ci_low": 32.76, "selection_size_ci_high": 34.26, "selection_size_sd": 2.7793, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.0987, "nonempty_count": 50}
+{"model": "signal", "signal": 0.75, "q": 0.15, "datasets": 50, "FDP_mean": 0.1544, "FDP_ci_low": 0.1335, "FDP_ci_high": 0.1765, "FDP_sd": 0.0783, "power_mean": 1.0, "power_ci_low": 1.0, "power_ci_high": 1.0, "power_sd": 0.0, "selection_size_mean": 35.8, "selection_size_ci_low": 34.86, "selection_size_ci_high": 36.82, "selection_size_sd": 3.58, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.1544, "nonempty_count": 50}
+[eval_main] swap checks: {"count": 50, "total_per_run_bitwise_mismatches": 0, "max_per_run_abs_error": 0.0, "total_aggregate_bitwise_mismatches": 0, "all_same_selection": true}
+[eval_main] gpu 573s, wall 579s -> results/exact_gaussian/eval_main
+{"model": "signal", "signal": 0.15, "q": 0.05, "datasets": 50, "FDP_mean": 0.0198, "FDP_ci_low": 0.0, "FDP_ci_high": 0.045, "FDP_sd": 0.0797, "power_mean": 0.0313, "power_ci_low": 0.0, "power_ci_high": 0.07, "power_sd": 0.1264, "selection_size_mean": 1.4, "selection_size_ci_low": 0.0, "selection_size_ci_high": 3.2, "selection_size_sd": 5.6279, "empty_rate": 0.94, "conditional_FDP_nonempty": 0.33, "nonempty_count": 3}
+{"model": "signal", "signal": 0.15, "q": 0.1, "datasets": 50, "FDP_mean": 0.0673, "FDP_ci_low": 0.0373, "FDP_ci_high": 0.1008, "FDP_sd": 0.1156, "power_mean": 0.1673, "power_ci_low": 0.108, "power_ci_high": 0.23, "power_sd": 0.2245, "selection_size_mean": 6.32, "selection_size_ci_low": 4.04, "selection_size_ci_high": 8.78, "selection_size_sd": 8.7864, "empty_rate": 0.62, "conditional_FDP_nonempty": 0.1772, "nonempty_count": 19}
+{"model": "signal", "signal": 0.15, "q": 0.15, "datasets": 50, "FDP_mean": 0.1195, "FDP_ci_low": 0.0849, "FDP_ci_high": 0.1563, "FDP_sd": 0.1295, "power_mean": 0.294, "power_ci_low": 0.2287, "power_ci_high": 0.3607, "power_sd": 0.2416, "selection_size_mean": 11.28, "selection_size_ci_low": 8.58, "selection_size_ci_high": 14.08, "selection_size_sd": 9.9899, "empty_rate": 0.32, "conditional_FDP_nonempty": 0.1757, "nonempty_count": 34}
+{"model": "signal", "signal": 0.2, "q": 0.05, "datasets": 50, "FDP_mean": 0.0237, "FDP_ci_low": 0.0102, "FDP_ci_high": 0.0401, "FDP_sd": 0.0546, "power_mean": 0.1687, "power_ci_low": 0.0873, "power_ci_high": 0.254, "power_sd": 0.3058, "selection_size_mean": 5.64, "selection_size_ci_low": 2.94, "selection_size_ci_high": 8.5, "selection_size_sd": 10.2415, "empty_rate": 0.76, "conditional_FDP_nonempty": 0.0988, "nonempty_count": 12}
+{"model": "signal", "signal": 0.2, "q": 0.1, "datasets": 50, "FDP_mean": 0.0933, "FDP_ci_low": 0.0683, "FDP_ci_high": 0.1204, "FDP_sd": 0.0956, "power_mean": 0.614, "power_ci_low": 0.5493, "power_ci_high": 0.6727, "power_sd": 0.223, "selection_size_mean": 21.08, "selection_size_ci_low": 18.52, "selection_size_ci_high": 23.56, "selection_size_sd": 9.1425, "empty_rate": 0.06, "conditional_FDP_nonempty": 0.0992, "nonempty_count": 47}
+{"model": "signal", "signal": 0.2, "q": 0.15, "datasets": 50, "FDP_mean": 0.1602, "FDP_ci_low": 0.1281, "FDP_ci_high": 0.1936, "FDP_sd": 0.1185, "power_mean": 0.7413, "power_ci_low": 0.698, "power_ci_high": 0.782, "power_sd": 0.1519, "selection_size_mean": 27.64, "selection_size_ci_low": 25.14, "selection_size_ci_high": 30.1605, "selection_size_sd": 9.0886, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.1602, "nonempty_count": 50}
+[eval_low] swap checks: {"count": 20, "total_per_run_bitwise_mismatches": 0, "max_per_run_abs_error": 0.0, "total_aggregate_bitwise_mismatches": 0, "all_same_selection": true}
+[eval_low] gpu 197s, wall 198s -> results/exact_gaussian/eval_low
+[eval_all] merged 1200 rows; amplitudes [0.15, 0.2, 0.3, 0.4, 0.5, 0.75]; swap checks 70
+done in 785s
+{"model": "signal", "signal": 0.2, "q": 0.05, "datasets": 50, "FDP_mean": 0.0, "FDP_ci_low": 0.0, "FDP_ci_high": 0.0, "FDP_sd": 0.0, "power_mean": 0.0, "power_ci_low": 0.0, "power_ci_high": 0.0, "power_sd": 0.0, "selection_size_mean": 0.0, "selection_size_ci_low": 0.0, "selection_size_ci_high": 0.0, "selection_size_sd": 0.0, "empty_rate": 1.0, "conditional_FDP_nonempty": NaN, "nonempty_count": 0}
+{"model": "signal", "signal": 0.2, "q": 0.1, "datasets": 50, "FDP_mean": 0.0018, "FDP_ci_low": 0.0, "FDP_ci_high": 0.0055, "FDP_sd": 0.0129, "power_mean": 0.014, "power_ci_low": 0.0, "power_ci_high": 0.0353, "power_sd": 0.0694, "selection_size_mean": 0.44, "selection_size_ci_low": 0.0, "selection_size_ci_high": 1.1, "selection_size_sd": 2.1774, "empty_rate": 0.96, "conditional_FDP_nonempty": 0.0455, "nonempty_count": 2}
+{"model": "signal", "signal": 0.2, "q": 0.15, "datasets": 50, "FDP_mean": 0.0549, "FDP_ci_low": 0.0272, "FDP_ci_high": 0.0871, "FDP_sd": 0.1091, "power_mean": 0.0953, "power_ci_low": 0.0493, "power_ci_high": 0.148, "power_sd": 0.1798, "selection_size_mean": 3.66, "selection_size_ci_low": 1.88, "selection_size_ci_high": 5.7, "selection_size_sd": 6.9418, "empty_rate": 0.74, "conditional_FDP_nonempty": 0.2111, "nonempty_count": 13}
+{"model": "signal", "signal": 0.3, "q": 0.05, "datasets": 50, "FDP_mean": 0.0116, "FDP_ci_low": 0.0031, "FDP_ci_high": 0.0221, "FDP_sd": 0.0346, "power_mean": 0.0787, "power_ci_low": 0.026, "power_ci_high": 0.1433, "power_sd": 0.2157, "selection_size_mean": 2.62, "selection_size_ci_low": 0.84, "selection_size_ci_high": 4.76, "selection_size_sd": 7.2023, "empty_rate": 0.88, "conditional_FDP_nonempty": 0.0965, "nonempty_count": 6}
+{"model": "signal", "signal": 0.3, "q": 0.1, "datasets": 50, "FDP_mean": 0.0909, "FDP_ci_low": 0.0663, "FDP_ci_high": 0.1168, "FDP_sd": 0.0914, "power_mean": 0.4533, "power_ci_low": 0.3827, "power_ci_high": 0.522, "power_sd": 0.2539, "selection_size_mean": 15.64, "selection_size_ci_low": 13.06, "selection_size_ci_high": 18.22, "selection_size_sd": 9.4216, "empty_rate": 0.18, "conditional_FDP_nonempty": 0.1109, "nonempty_count": 41}
+{"model": "signal", "signal": 0.3, "q": 0.15, "datasets": 50, "FDP_mean": 0.1542, "FDP_ci_low": 0.125, "FDP_ci_high": 0.1839, "FDP_sd": 0.1078, "power_mean": 0.6113, "power_ci_low": 0.5513, "power_ci_high": 0.6687, "power_sd": 0.2141, "selection_size_mean": 22.64, "selection_size_ci_low": 19.98, "selection_size_ci_high": 25.3, "selection_size_sd": 9.7012, "empty_rate": 0.04, "conditional_FDP_nonempty": 0.1606, "nonempty_count": 48}
+[ablation_R1] swap checks: {"count": 20, "total_per_run_bitwise_mismatches": 0, "max_per_run_abs_error": 0.0, "total_aggregate_bitwise_mismatches": 0, "all_same_selection": true}
+[ablation_R1] gpu 31s, wall 32s -> results/exact_gaussian/ablation_R1
+{"model": "signal", "signal": 0.2, "q": 0.05, "datasets": 50, "FDP_mean": 0.0177, "FDP_ci_low": 0.0035, "FDP_ci_high": 0.0365, "FDP_sd": 0.0623, "power_mean": 0.0533, "power_ci_low": 0.0127, "power_ci_high": 0.1073, "power_sd": 0.1831, "selection_size_mean": 2.06, "selection_size_ci_low": 0.46, "selection_size_ci_high": 4.16, "selection_size_sd": 7.0723, "empty_rate": 0.92, "conditional_FDP_nonempty": 0.2215, "nonempty_count": 4}
+{"model": "signal", "signal": 0.2, "q": 0.1, "datasets": 50, "FDP_mean": 0.0638, "FDP_ci_low": 0.0389, "FDP_ci_high": 0.092, "FDP_sd": 0.0965, "power_mean": 0.312, "power_ci_low": 0.244, "power_ci_high": 0.3807, "power_sd": 0.2485, "selection_size_mean": 10.76, "selection_size_ci_low": 8.24, "selection_size_ci_high": 13.42, "selection_size_sd": 9.3537, "empty_rate": 0.34, "conditional_FDP_nonempty": 0.0967, "nonempty_count": 33}
+{"model": "signal", "signal": 0.2, "q": 0.15, "datasets": 50, "FDP_mean": 0.1107, "FDP_ci_low": 0.0827, "FDP_ci_high": 0.14, "FDP_sd": 0.1052, "power_mean": 0.452, "power_ci_low": 0.388, "power_ci_high": 0.5127, "power_sd": 0.2287, "selection_size_mean": 16.12, "selection_size_ci_low": 13.5795, "selection_size_ci_high": 18.6205, "selection_size_sd": 9.253, "empty_rate": 0.14, "conditional_FDP_nonempty": 0.1287, "nonempty_count": 43}
+{"model": "signal", "signal": 0.3, "q": 0.05, "datasets": 50, "FDP_mean": 0.039, "FDP_ci_low": 0.0258, "FDP_ci_high": 0.0543, "FDP_sd": 0.0517, "power_mean": 0.718, "power_ci_low": 0.6313, "power_ci_high": 0.7947, "power_sd": 0.3017, "selection_size_mean": 22.66, "selection_size_ci_low": 19.9, "selection_size_ci_high": 25.14, "selection_size_sd": 9.6945, "empty_rate": 0.14, "conditional_FDP_nonempty": 0.0453, "nonempty_count": 43}
+{"model": "signal", "signal": 0.3, "q": 0.1, "datasets": 50, "FDP_mean": 0.1025, "FDP_ci_low": 0.079, "FDP_ci_high": 0.1285, "FDP_sd": 0.0901, "power_mean": 0.8913, "power_ci_low": 0.8687, "power_ci_high": 0.9133, "power_sd": 0.0813, "selection_size_mean": 30.28, "selection_size_ci_low": 28.84, "selection_size_ci_high": 31.82, "selection_size_sd": 5.4512, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.1025, "nonempty_count": 50}
+{"model": "signal", "signal": 0.3, "q": 0.15, "datasets": 50, "FDP_mean": 0.1552, "FDP_ci_low": 0.125, "FDP_ci_high": 0.1864, "FDP_sd": 0.1133, "power_mean": 0.9293, "power_ci_low": 0.9133, "power_ci_high": 0.9447, "power_sd": 0.0578, "selection_size_mean": 33.8, "selection_size_ci_low": 32.1395, "selection_size_ci_high": 35.58, "selection_size_sd": 6.392, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.1552, "nonempty_count": 50}
+[ablation_R5] swap checks: {"count": 20, "total_per_run_bitwise_mismatches": 0, "max_per_run_abs_error": 0.0, "total_aggregate_bitwise_mismatches": 0, "all_same_selection": true}
+[ablation_R5] gpu 53s, wall 54s -> results/exact_gaussian/ablation_R5
+{"model": "signal", "signal": 0.2, "q": 0.05, "datasets": 50, "FDP_mean": 0.0304, "FDP_ci_low": 0.0147, "FDP_ci_high": 0.0487, "FDP_sd": 0.0617, "power_mean": 0.192, "power_ci_low": 0.1087, "power_ci_high": 0.2833, "power_sd": 0.3145, "selection_size_mean": 6.5, "selection_size_ci_low": 3.66, "selection_size_ci_high": 9.6, "selection_size_sd": 10.6986, "empty_rate": 0.72, "conditional_FDP_nonempty": 0.1085, "nonempty_count": 14}
+{"model": "signal", "signal": 0.2, "q": 0.1, "datasets": 50, "FDP_mean": 0.0884, "FDP_ci_low": 0.0638, "FDP_ci_high": 0.1158, "FDP_sd": 0.0958, "power_mean": 0.5973, "power_ci_low": 0.5307, "power_ci_high": 0.6593, "power_sd": 0.2334, "selection_size_mean": 20.44, "selection_size_ci_low": 17.86, "selection_size_ci_high": 23.02, "selection_size_sd": 9.3921, "empty_rate": 0.08, "conditional_FDP_nonempty": 0.0961, "nonempty_count": 46}
+{"model": "signal", "signal": 0.2, "q": 0.15, "datasets": 50, "FDP_mean": 0.1542, "FDP_ci_low": 0.1247, "FDP_ci_high": 0.1857, "FDP_sd": 0.1102, "power_mean": 0.744, "power_ci_low": 0.702, "power_ci_high": 0.784, "power_sd": 0.1491, "selection_size_mean": 27.34, "selection_size_ci_low": 25.06, "selection_size_ci_high": 29.68, "selection_size_sd": 8.373, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.1542, "nonempty_count": 50}
+{"model": "signal", "signal": 0.3, "q": 0.05, "datasets": 50, "FDP_mean": 0.0345, "FDP_ci_low": 0.0211, "FDP_ci_high": 0.0499, "FDP_sd": 0.0531, "power_mean": 0.908, "power_ci_low": 0.884, "power_ci_high": 0.9307, "power_sd": 0.0853, "selection_size_mean": 28.38, "selection_size_ci_low": 27.32, "selection_size_ci_high": 29.44, "selection_size_sd": 3.8273, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.0345, "nonempty_count": 50}
+{"model": "signal", "signal": 0.3, "q": 0.1, "datasets": 50, "FDP_mean": 0.1038, "FDP_ci_low": 0.0818, "FDP_ci_high": 0.1273, "FDP_sd": 0.0837, "power_mean": 0.97, "power_ci_low": 0.96, "power_ci_high": 0.9793, "power_sd": 0.0358, "selection_size_mean": 32.82, "selection_size_ci_low": 31.76, "selection_size_ci_high": 33.96, "selection_size_sd": 3.9882, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.1038, "nonempty_count": 50}
+{"model": "signal", "signal": 0.3, "q": 0.15, "datasets": 50, "FDP_mean": 0.1497, "FDP_ci_low": 0.1227, "FDP_ci_high": 0.177, "FDP_sd": 0.0992, "power_mean": 0.9867, "power_ci_low": 0.98, "power_ci_high": 0.9927, "power_sd": 0.0233, "selection_size_mean": 35.36, "selection_size_ci_low": 34.04, "selection_size_ci_high": 36.74, "selection_size_sd": 4.898, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.1497, "nonempty_count": 50}
+[ablation_nosharpen] swap checks: {"count": 20, "total_per_run_bitwise_mismatches": 0, "max_per_run_abs_error": 0.0, "total_aggregate_bitwise_mismatches": 0, "all_same_selection": true}
+[ablation_nosharpen] gpu 198s, wall 200s -> results/exact_gaussian/ablation_nosharpen
+{"model": "signal", "signal": 0.2, "q": 0.05, "datasets": 50, "FDP_mean": 0.0233, "FDP_ci_low": 0.0086, "FDP_ci_high": 0.041, "FDP_sd": 0.0595, "power_mean": 0.1413, "power_ci_low": 0.0673, "power_ci_high": 0.2253, "power_sd": 0.2881, "selection_size_mean": 4.84, "selection_size_ci_low": 2.28, "selection_size_ci_high": 7.7, "selection_size_sd": 9.9229, "empty_rate": 0.8, "conditional_FDP_nonempty": 0.1167, "nonempty_count": 10}
+{"model": "signal", "signal": 0.2, "q": 0.1, "datasets": 50, "FDP_mean": 0.0788, "FDP_ci_low": 0.0541, "FDP_ci_high": 0.106, "FDP_sd": 0.0951, "power_mean": 0.538, "power_ci_low": 0.464, "power_ci_high": 0.608, "power_sd": 0.2617, "selection_size_mean": 18.28, "selection_size_ci_low": 15.56, "selection_size_ci_high": 20.92, "selection_size_sd": 9.8769, "empty_rate": 0.12, "conditional_FDP_nonempty": 0.0895, "nonempty_count": 44}
+{"model": "signal", "signal": 0.2, "q": 0.15, "datasets": 50, "FDP_mean": 0.1383, "FDP_ci_low": 0.1088, "FDP_ci_high": 0.1701, "FDP_sd": 0.1108, "power_mean": 0.7027, "power_ci_low": 0.6593, "power_ci_high": 0.7453, "power_sd": 0.157, "selection_size_mean": 25.34, "selection_size_ci_low": 23.14, "selection_size_ci_high": 27.68, "selection_size_sd": 8.2823, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.1383, "nonempty_count": 50}
+{"model": "signal", "signal": 0.3, "q": 0.05, "datasets": 50, "FDP_mean": 0.0299, "FDP_ci_low": 0.0188, "FDP_ci_high": 0.0424, "FDP_sd": 0.0433, "power_mean": 0.9013, "power_ci_low": 0.878, "power_ci_high": 0.9233, "power_sd": 0.0816, "selection_size_mean": 27.98, "selection_size_ci_low": 27.06, "selection_size_ci_high": 28.9, "selection_size_sd": 3.3288, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.0299, "nonempty_count": 50}
+{"model": "signal", "signal": 0.3, "q": 0.1, "datasets": 50, "FDP_mean": 0.0981, "FDP_ci_low": 0.0771, "FDP_ci_high": 0.1205, "FDP_sd": 0.0794, "power_mean": 0.9613, "power_ci_low": 0.9493, "power_ci_high": 0.972, "power_sd": 0.0417, "selection_size_mean": 32.3, "selection_size_ci_low": 31.26, "selection_size_ci_high": 33.4, "selection_size_sd": 3.9292, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.0981, "nonempty_count": 50}
+{"model": "signal", "signal": 0.3, "q": 0.15, "datasets": 50, "FDP_mean": 0.1515, "FDP_ci_low": 0.1249, "FDP_ci_high": 0.1785, "FDP_sd": 0.0966, "power_mean": 0.9787, "power_ci_low": 0.9707, "power_ci_high": 0.986, "power_sd": 0.0276, "selection_size_mean": 35.14, "selection_size_ci_low": 33.82, "selection_size_ci_high": 36.52, "selection_size_sd": 4.9032, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.1515, "nonempty_count": 50}
+[ablation_noentropy] swap checks: {"count": 20, "total_per_run_bitwise_mismatches": 0, "max_per_run_abs_error": 0.0, "total_aggregate_bitwise_mismatches": 0, "all_same_selection": true}
+[ablation_noentropy] gpu 199s, wall 200s -> results/exact_gaussian/ablation_noentropy
+{"model": "signal", "signal": 0.2, "q": 0.05, "datasets": 50, "FDP_mean": 0.034, "FDP_ci_low": 0.0198, "FDP_ci_high": 0.0497, "FDP_sd": 0.055, "power_mean": 0.2787, "power_ci_low": 0.184, "power_ci_high": 0.3753, "power_sd": 0.3501, "selection_size_mean": 9.18, "selection_size_ci_low": 6.04, "selection_size_ci_high": 12.4, "selection_size_sd": 11.5999, "empty_rate": 0.6, "conditional_FDP_nonempty": 0.085, "nonempty_count": 20}
+{"model": "signal", "signal": 0.2, "q": 0.1, "datasets": 50, "FDP_mean": 0.0904, "FDP_ci_low": 0.0675, "FDP_ci_high": 0.1138, "FDP_sd": 0.0841, "power_mean": 0.568, "power_ci_low": 0.5027, "power_ci_high": 0.6287, "power_sd": 0.2289, "selection_size_mean": 19.34, "selection_size_ci_low": 16.9, "selection_size_ci_high": 21.7, "selection_size_sd": 8.7075, "empty_rate": 0.08, "conditional_FDP_nonempty": 0.0982, "nonempty_count": 46}
+{"model": "signal", "signal": 0.2, "q": 0.15, "datasets": 50, "FDP_mean": 0.1645, "FDP_ci_low": 0.1325, "FDP_ci_high": 0.1971, "FDP_sd": 0.1185, "power_mean": 0.6793, "power_ci_low": 0.6273, "power_ci_high": 0.728, "power_sd": 0.1859, "selection_size_mean": 25.5, "selection_size_ci_low": 22.98, "selection_size_ci_high": 27.98, "selection_size_sd": 9.1568, "empty_rate": 0.02, "conditional_FDP_nonempty": 0.1678, "nonempty_count": 49}
+{"model": "signal", "signal": 0.3, "q": 0.05, "datasets": 50, "FDP_mean": 0.0241, "FDP_ci_low": 0.0144, "FDP_ci_high": 0.0352, "FDP_sd": 0.038, "power_mean": 0.88, "power_ci_low": 0.8353, "power_ci_high": 0.912, "power_sd": 0.1443, "selection_size_mean": 27.14, "selection_size_ci_low": 25.72, "selection_size_ci_high": 28.3, "selection_size_sd": 4.8065, "empty_rate": 0.02, "conditional_FDP_nonempty": 0.0246, "nonempty_count": 49}
+{"model": "signal", "signal": 0.3, "q": 0.1, "datasets": 50, "FDP_mean": 0.0993, "FDP_ci_low": 0.0808, "FDP_ci_high": 0.1189, "FDP_sd": 0.0694, "power_mean": 0.9667, "power_ci_low": 0.956, "power_ci_high": 0.9767, "power_sd": 0.0375, "selection_size_mean": 32.44, "selection_size_ci_low": 31.54, "selection_size_ci_high": 33.4, "selection_size_sd": 3.3816, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.0993, "nonempty_count": 50}
+{"model": "signal", "signal": 0.3, "q": 0.15, "datasets": 50, "FDP_mean": 0.152, "FDP_ci_low": 0.1263, "FDP_ci_high": 0.1785, "FDP_sd": 0.0959, "power_mean": 0.98, "power_ci_low": 0.9727, "power_ci_high": 0.9867, "power_sd": 0.0261, "selection_size_mean": 35.2, "selection_size_ci_low": 33.9, "selection_size_ci_high": 36.58, "selection_size_sd": 4.8823, "empty_rate": 0.0, "conditional_FDP_nonempty": 0.152, "nonempty_count": 50}
+[ablation_noctx] swap checks: {"count": 20, "total_per_run_bitwise_mismatches": 0, "max_per_run_abs_error": 0.0, "total_aggregate_bitwise_mismatches": 0, "all_same_selection": true}
+[ablation_noctx] gpu 192s, wall 193s -> results/exact_gaussian/ablation_noctx
+done in 688s
+T01_R1_lr2e-2_e150 a=0.2: power@.05/.10/.15 = 0.000/0.033/0.103  FDP@.10=0.009  null nonempty@.10=0  (13s)
+T01_R1_lr2e-2_e150 a=0.3: power@.05/.10/.15 = 0.127/0.400/0.543  FDP@.10=0.061  null nonempty@.10=0  (9s)
+T02_R5_lr2e-2_e150 a=0.2: power@.05/.10/.15 = 0.000/0.270/0.435  FDP@.10=0.048  null nonempty@.10=0  (16s)
+T02_R5_lr2e-2_e150 a=0.3: power@.05/.10/.15 = 0.773/0.878/0.932  FDP@.10=0.087  null nonempty@.10=0  (16s)
+T03_R10_lr2e-2_e150 a=0.2: power@.05/.10/.15 = 0.125/0.497/0.607  FDP@.10=0.058  null nonempty@.10=0  (32s)
+T03_R10_lr2e-2_e150 a=0.3: power@.05/.10/.15 = 0.910/0.958/0.970  FDP@.10=0.085  null nonempty@.10=0  (32s)
+T04_R20_lr2e-2_e150 a=0.2: power@.05/.10/.15 = 0.240/0.652/0.720  FDP@.10=0.062  null nonempty@.10=0  (69s)
+T04_R20_lr2e-2_e150 a=0.3: power@.05/.10/.15 = 0.942/0.982/0.993  FDP@.10=0.083  null nonempty@.10=0  (68s)
+T05_R10_lr5e-3_e150 a=0.2: power@.05/.10/.15 = 0.178/0.570/0.692  FDP@.10=0.078  null nonempty@.10=0  (33s)
+T05_R10_lr5e-3_e150 a=0.3: power@.05/.10/.15 = 0.925/0.965/0.975  FDP@.10=0.072  null nonempty@.10=0  (33s)
+T06_R10_lr5e-3_e300 a=0.2: power@.05/.10/.15 = 0.268/0.590/0.728  FDP@.10=0.076  null nonempty@.10=0  (65s)
+T06_R10_lr5e-3_e300 a=0.3: power@.05/.10/.15 = 0.877/0.958/0.977  FDP@.10=0.074  null nonempty@.10=0  (66s)
+T07_R10_lr2e-2_e150_nosharpen a=0.2: power@.05/.10/.15 = 0.188/0.505/0.612  FDP@.10=0.065  null nonempty@.10=0  (33s)
+T07_R10_lr2e-2_e150_nosharpen a=0.3: power@.05/.10/.15 = 0.907/0.960/0.973  FDP@.10=0.089  null nonempty@.10=0  (33s)
+T08_R10_lr2e-2_e150_noctx a=0.2: power@.05/.10/.15 = 0.102/0.373/0.497  FDP@.10=0.047  null nonempty@.10=0  (32s)
+T08_R10_lr2e-2_e150_noctx a=0.3: power@.05/.10/.15 = 0.883/0.942/0.967  FDP@.10=0.062  null nonempty@.10=0  (31s)
+selection: {"scores": {"T01_R1_lr2e-2_e150": 0.21666666666666667, "T02_R5_lr2e-2_e150": 0.5741666666666666, "T03_R10_lr2e-2_e150": 0.7275, "T04_R20_lr2e-2_e150": 0.8166666666666667, "T05_R10_lr5e-3_e150": 0.7674999999999998, "T06_R10_lr5e-3_e300": 0.7741666666666666, "T07_R10_lr2e-2_e150_nosharpen": 0.7324999999999999, "T08_R10_lr2e-2_e150_noctx": 0.6575000000000001}, "cost": {"T01_R1_lr2e-2_e150": 150, "T02_R5_lr2e-2_e150": 750, "T03_R10_lr2e-2_e150": 1500, "T04_R20_lr2e-2_e150": 3000, "T05_R10_lr5e-3_e150": 1500, "T06_R10_lr5e-3_e300": 3000, "T07_R10_lr2e-2_e150_nosharpen": 1500, "T08_R10_lr2e-2_e150_noctx": 1500}, "chosen": "T04_R20_lr2e-2_e150", "override": {}, "restarts": 20}
+done in 599s
+{"parameterization": "symmetric", "dtype": "float32", "max": 0.0, "median": 0.0, "exact": 100, "selection_changed_q10": 0, "gpu_seconds": 26.5}
+{"parameterization": "symmetric", "dtype": "float64", "max": 0.0, "median": 0.0, "exact": 100, "selection_changed_q10": 0, "gpu_seconds": 67.9}
+{"parameterization": "naive", "dtype": "float32", "max": 0.4630852937698364, "median": 0.13459259271621704, "exact": 0, "selection_changed_q10": 5, "gpu_seconds": 21.4}
+{"parameterization": "naive", "dtype": "float64", "max": 5.551115123125783e-16, "median": 4.440892098500626e-16, "exact": 0, "selection_changed_q10": 0, "gpu_seconds": 65.9}
+done in 189s
+wrote trackA_main.tex, trackA_appendix.tex, trackA_tuning.tex, trackA_ablation.tex and numbers.json to results/exact_gaussian/tables
+trackA_main.tex: byte-identical to the paper table
+trackA_appendix.tex: byte-identical to the paper table
+trackA_tuning.tex: byte-identical to the paper table
+trackA_ablation.tex: byte-identical to the paper table
+numbers: 78/78 equal to the printed strings; app.max_excess_over_q at printed precision (0.010229 at a=0.20, q=0.15); 2 machine-dependent timings not compared (app.eval_minutes: 13 here vs 17 printed, app.ablation_minutes: 11 here vs 29 printed)
+wrote results/exact_gaussian/figures/figureA1_panel_data.csv
+wrote results/exact_gaussian/figures/FigureA1_TrackA.pdf
+wrote results/exact_gaussian/figures/FigureA1_TrackA.png
+Figure A1 panel data: byte-identical to reference/exact_gaussian/figureA1_panel_data.csv
+
+=== 3/6 PBMC 3k matched protocol (~12 min)  [2026-10-03 04:44:14] ===
+pbmc unit  0 seed 20000 {'ARI': 0.2977, 'NMI': 0.5854, 'CoverageScore': 2.8} MarkerHits=14 train 38.5s total 41.2s
+pbmc unit  1 seed 20997 {'ARI': 0.2995, 'NMI': 0.5853, 'CoverageScore': 2.8} MarkerHits=14 train 32.3s total 32.7s
+pbmc unit  2 seed 21994 {'ARI': 0.4179, 'NMI': 0.5672, 'CoverageScore': 2.8} MarkerHits=14 train 31.2s total 31.5s
+pbmc unit  3 seed 22991 {'ARI': 0.3362, 'NMI': 0.5856, 'CoverageScore': 2.8} MarkerHits=14 train 30.9s total 31.1s
+pbmc unit  4 seed 23988 {'ARI': 0.3363, 'NMI': 0.5689, 'CoverageScore': 2.8} MarkerHits=14 train 31.1s total 31.4s
+pbmc unit  5 seed 24985 {'ARI': 0.3203, 'NMI': 0.5948, 'CoverageScore': 2.8} MarkerHits=14 train 31.3s total 31.5s
+pbmc unit  6 seed 25982 {'ARI': 0.3828, 'NMI': 0.5952, 'CoverageScore': 2.8} MarkerHits=14 train 32.9s total 33.2s
+pbmc unit  7 seed 26979 {'ARI': 0.448, 'NMI': 0.5834, 'CoverageScore': 2.8} MarkerHits=14 train 30.9s total 31.2s
+pbmc unit  8 seed 27976 {'ARI': 0.3381, 'NMI': 0.5712, 'CoverageScore': 2.8} MarkerHits=14 train 32.0s total 32.3s
+pbmc unit  9 seed 28973 {'ARI': 0.3574, 'NMI': 0.6026, 'CoverageScore': 2.8} MarkerHits=14 train 29.9s total 30.2s
+pbmc unit 10 seed 29970 {'ARI': 0.3727, 'NMI': 0.5753, 'CoverageScore': 2.8} MarkerHits=14 train 30.0s total 30.2s
+pbmc unit 11 seed 30967 {'ARI': 0.3264, 'NMI': 0.5611, 'CoverageScore': 2.8} MarkerHits=14 train 30.1s total 30.4s
+pbmc unit 12 seed 31964 {'ARI': 0.3266, 'NMI': 0.573, 'CoverageScore': 2.8} MarkerHits=14 train 30.3s total 30.6s
+pbmc unit 13 seed 32961 {'ARI': 0.3917, 'NMI': 0.5683, 'CoverageScore': 2.8} MarkerHits=14 train 29.6s total 29.9s
+pbmc unit 14 seed 33958 {'ARI': 0.4257, 'NMI': 0.5878, 'CoverageScore': 2.8} MarkerHits=14 train 31.1s total 31.3s
+pbmc unit 15 seed 34955 {'ARI': 0.3322, 'NMI': 0.5619, 'CoverageScore': 2.8} MarkerHits=14 train 31.6s total 31.9s
+pbmc unit 16 seed 35952 {'ARI': 0.3227, 'NMI': 0.5911, 'CoverageScore': 2.8} MarkerHits=14 train 31.5s total 31.7s
+pbmc unit 17 seed 36949 {'ARI': 0.3736, 'NMI': 0.5962, 'CoverageScore': 2.8} MarkerHits=14 train 30.4s total 30.7s
+pbmc unit 18 seed 37946 {'ARI': 0.3394, 'NMI': 0.5797, 'CoverageScore': 2.8} MarkerHits=14 train 29.5s total 29.8s
+pbmc unit 19 seed 38943 {'ARI': 0.3523, 'NMI': 0.6036, 'CoverageScore': 2.8} MarkerHits=14 train 31.0s total 31.2s
+means over 20 units: {'ARI': 0.3549, 'NMI': 0.5819, 'MarkerHits': 14.0, 'CoverageScore': 2.8}
+SSRK, single run & run vs run & $.772\pm.033$ & $.863\pm.022$ & $1.000$ & 14.00 / 2.80\\
+SSRK, median-$W$, $K=3$ & consensus vs members & $.852$ & $.915$ & $1.000$ & 14.00 / 2.80\\
+SSRK, median-$W$, $K=3$ & consensus vs consensus & $.830\pm.028$ & $.901\pm.018$ & $1.000$ & 14.00 / 2.80\\
+SSRK, median-$W$, $K=5$ & consensus vs consensus & $.850\pm.026$ & $.914\pm.016$ & $1.000$ & 14.00 / 2.80\\
+SSRK, median-$W$, $K=10$ & consensus vs consensus & $.891\pm.021$ & $.939\pm.013$ & $1.000$ & 14.00 / 2.80\\\midrule
+SSFS, single run & run vs run & $.756\pm.083$ & $.850\pm.058$ & $.937$ & 14.80 / 2.70\\
+STG, single run & run vs run & $.514\pm.039$ & $.658\pm.036$ & $.827$ & 14.00 / 2.53\\
+GAEFS, single run & run vs run & $.384\pm.071$ & $.523\pm.077$ & $.638$ & 7.95 / 1.90\\
+CAE, single run & run vs run & $.132\pm.049$ & $.182\pm.079$ & $.348$ & 7.05 / 1.72\\
+Variance$^{\ast}$, single run & run vs run & $.050\pm.016$ & $.039\pm.031$ & $.026$ & 0.45 / 0.40\\
+{
+ "score_arrays_match_stored_sets": true,
+ "table_body_equals_paper": true,
+ "stability_pairwise_recomputed_equals_reference": true,
+ "stability_aggregation_recomputed_equals_reference": true,
+ "consensus_vs_consensus_equals_reference": true,
+ "marker_universe_equals_reference": true,
+ "claim_refits_same_fourteen_markers": true,
+ "claim_ssrk_highest_jaccard_and_kuncheva": true,
+ "claim_ssrk_most_stable_jaccard_against_ssfs": true,
+ "claim_consensus_sets_retain_same_markers": true,
+ "claim_larger_groups_improve_agreement": true
+}
+
+=== 4/6 UCI HAR matched protocol (~35 min) and five-seed evaluator (~8 min)  [2026-10-03 04:55:14] ===
+uci_har unit  0 seed 31000 {'Accuracy': 0.9427, 'F1_macro': 0.9421, 'HNI': 0.0, 'DomainBalance': 0.12} train 87.1s total 101.5s
+uci_har unit  1 seed 31997 {'Accuracy': 0.9393, 'F1_macro': 0.9384, 'HNI': 0.0, 'DomainBalance': 0.17} train 81.0s total 88.4s
+uci_har unit  2 seed 32994 {'Accuracy': 0.9525, 'F1_macro': 0.9528, 'HNI': 0.0, 'DomainBalance': 0.17} train 84.1s total 97.9s
+uci_har unit  3 seed 33991 {'Accuracy': 0.9532, 'F1_macro': 0.9529, 'HNI': 0.0, 'DomainBalance': 0.1557} train 83.6s total 90.3s
+uci_har unit  4 seed 34988 {'Accuracy': 0.926, 'F1_macro': 0.9224, 'HNI': 0.0, 'DomainBalance': 0.1129} train 83.0s total 92.0s
+uci_har unit  5 seed 35985 {'Accuracy': 0.946, 'F1_macro': 0.9454, 'HNI': 0.0, 'DomainBalance': 0.1628} train 82.8s total 89.4s
+uci_har unit  6 seed 36982 {'Accuracy': 0.941, 'F1_macro': 0.9401, 'HNI': 0.0, 'DomainBalance': 0.0986} train 82.3s total 89.9s
+uci_har unit  7 seed 37979 {'Accuracy': 0.9447, 'F1_macro': 0.9428, 'HNI': 0.0, 'DomainBalance': 0.12} train 82.0s total 88.3s
+uci_har unit  8 seed 38976 {'Accuracy': 0.9457, 'F1_macro': 0.945, 'HNI': 0.0, 'DomainBalance': 0.1343} train 85.5s total 93.1s
+uci_har unit  9 seed 39973 {'Accuracy': 0.9623, 'F1_macro': 0.9623, 'HNI': 0.0, 'DomainBalance': 0.1343} train 80.9s total 89.3s
+uci_har unit 10 seed 40970 {'Accuracy': 0.9559, 'F1_macro': 0.9558, 'HNI': 0.0, 'DomainBalance': 0.0986} train 82.6s total 87.7s
+uci_har unit 11 seed 41967 {'Accuracy': 0.9606, 'F1_macro': 0.9602, 'HNI': 0.0, 'DomainBalance': 0.1771} train 82.2s total 97.5s
+uci_har unit 12 seed 42964 {'Accuracy': 0.9505, 'F1_macro': 0.9504, 'HNI': 0.0, 'DomainBalance': 0.12} train 82.4s total 88.4s
+uci_har unit 13 seed 43961 {'Accuracy': 0.9433, 'F1_macro': 0.943, 'HNI': 0.0, 'DomainBalance': 0.0915} train 82.8s total 90.1s
+uci_har unit 14 seed 44958 {'Accuracy': 0.9586, 'F1_macro': 0.959, 'HNI': 0.0, 'DomainBalance': 0.0701} train 82.7s total 93.8s
+uci_har unit 15 seed 45955 {'Accuracy': 0.9562, 'F1_macro': 0.9556, 'HNI': 0.0, 'DomainBalance': 0.1058} train 81.7s total 88.3s
+uci_har unit 16 seed 46952 {'Accuracy': 0.9321, 'F1_macro': 0.9321, 'HNI': 0.0, 'DomainBalance': 0.1843} train 83.7s total 90.7s
+uci_har unit 17 seed 47949 {'Accuracy': 0.943, 'F1_macro': 0.9429, 'HNI': 0.0, 'DomainBalance': 0.0415} train 81.1s total 102.3s
+uci_har unit 18 seed 48946 {'Accuracy': 0.9505, 'F1_macro': 0.9496, 'HNI': 0.0, 'DomainBalance': 0.1771} train 83.7s total 92.8s
+uci_har unit 19 seed 49943 {'Accuracy': 0.945, 'F1_macro': 0.9445, 'HNI': 0.0, 'DomainBalance': 0.2342} train 81.3s total 87.9s
+001_SSRK five-seed accuracy 0.9477 (54.2s)
+003_SSRK five-seed accuracy 0.9486 (55.6s)
+000_SSRK five-seed accuracy 0.9511 (62.8s)
+002_SSRK five-seed accuracy 0.9511 (72.5s)
+005_SSRK five-seed accuracy 0.9471 (49.2s)
+006_SSRK five-seed accuracy 0.9534 (40.5s)
+004_SSRK five-seed accuracy 0.9488 (56.3s)
+007_SSRK five-seed accuracy 0.9458 (83.3s)
+009_SSRK five-seed accuracy 0.9533 (46.6s)
+010_SSRK five-seed accuracy 0.9513 (41.1s)
+008_SSRK five-seed accuracy 0.9480 (55.4s)
+013_SSRK five-seed accuracy 0.9433 (51.2s)
+011_SSRK five-seed accuracy 0.9550 (65.0s)
+014_SSRK five-seed accuracy 0.9505 (58.6s)
+012_SSRK five-seed accuracy 0.9495 (47.8s)
+015_SSRK five-seed accuracy 0.9435 (40.7s)
+018_SSRK five-seed accuracy 0.9501 (49.6s)
+017_SSRK five-seed accuracy 0.9446 (66.0s)
+016_SSRK five-seed accuracy 0.9444 (46.1s)
+019_SSRK five-seed accuracy 0.9503 (39.3s)
+means over 20 units: {'Accuracy': 0.9488700373260943, 'F1_macro': 0.9484770876470258, 'HNI': 0.0, 'DomainBalance': 0.13394247404844292}
+
+=== 5/6 paired statistics (Table A3, 70 contrasts)  [2026-10-03 05:30:45] ===
+70 contrasts: SSRK 52, baseline 4, ns 14
+  pbmc          ARI           SSRK - STG       -0.0093 [-0.0348,+0.0251] p_holm=0.55 ns
+  pbmc          NMI           SSRK - STG       -0.0302 [-0.0371,-0.0234] p_holm=5e-05 baseline
+  pbmc          NMI           SSRK - SSFS      -0.0010 [-0.0051,+0.0040] p_holm=0.684 ns
+  pbmc          MarkerHits    SSRK - STG       +0.0000 [-0.5000,+0.4500] p_holm=1 ns
+  pbmc          MarkerHits    SSRK - SSFS      -0.8000 [-1.2000,-0.4500] p_holm=0.0036 baseline
+  mnist         ARI           SSRK - Variance  +0.0009 [-0.0009,+0.0039] p_holm=0.467 ns
+  mnist         NMI           SSRK - Variance  +0.0010 [-0.0004,+0.0028] p_holm=0.275 ns
+  fashion_mnist ARI           SSRK - Variance  -0.0007 [-0.0051,+0.0005] p_holm=0.783 ns
+  fashion_mnist NMI           SSRK - Variance  -0.0034 [-0.0099,-0.0015] p_holm=0.00063 baseline
+  fashion_mnist NMI           SSRK - CAE       +0.0070 [-0.0000,+0.0141] p_holm=0.149 ns
+  fashion_mnist NMI           SSRK - SSFS      +0.0001 [-0.0055,+0.0027] p_holm=0.96 ns
+  fashion_mnist CoverageEff   SSRK - Variance  +0.0003 [-0.0005,+0.0010] p_holm=0.555 ns
+  fashion_mnist CoverageEff   SSRK - STG       -0.0900 [-0.1044,-0.0752] p_holm=5e-05 baseline
+  uci_har       Accuracy      SSRK - Variance  -0.0004 [-0.0024,+0.0013] p_holm=0.687 ns
+  uci_har       F1_macro      SSRK - Variance  -0.0006 [-0.0027,+0.0011] p_holm=0.533 ns
+  uci_har       HNI           SSRK - GAEFS     -0.0001 [-0.0007,+0.0000] p_holm=1 ns
+  uci_har       HNI           SSRK - SSFS      +0.0000 [+0.0000,+0.0000] p_holm=1 ns
+  uci_har       DomainBalance SSRK - GAEFS     +0.0031 [-0.0204,+0.0251] p_holm=0.795 ns
+wrote results/paired/paired_statistics.csv (2.8 s)
+longtable body (83 lines) vs reference/paper/paired_longtable_body.tex: byte-identical
+  [PASS] overview_counts (Sec. 5.1): Across the 70 comparisons, SSRK is significantly better in 52 and worse in 4; the remaining 14 show no significant difference.
+  [PASS] abstract_counts (Abstract): significantly better than the corresponding baseline in 52 of 70 matched 20-run comparisons and worse in 4 (Holm adjustment within each dataset--metric family)
+  [PASS] pbmc_ari_mean (Sec. 5.3, PBMC 3k): SSRK's ARI (0.355)
+  [PASS] pbmc_ari_sig_higher (Sec. 5.3, PBMC 3k): is significantly higher than that of CAE, GAEFS, and SSFS (and of Variance
+  [PASS] pbmc_ari_vs_stg (Sec. 5.3, PBMC 3k): not significantly different from that of STG ($-0.009$, 95\% BCa interval $[-0.035,0.025]$)
+  [PASS] pbmc_nmi_vs_ssfs (Sec. 5.3, PBMC 3k): its NMI is not significantly different from that of SSFS ($-0.001$, Holm $p=0.68$)
+  [PASS] pbmc_coverage_all_five (Sec. 5.3, PBMC 3k): its coverage score is significantly higher than that of all five baselines
+  [PASS] pbmc_stg_higher_nmi (Sec. 5.3, PBMC 3k): STG has a higher NMI
+  [PASS] pbmc_ssfs_more_markers (Sec. 5.3, PBMC 3k): SSFS retrieves 0.8 more markers on average
+  [PASS] pbmc_variance_ari (App. A.3.2, "Baselines"): On the per-gene standardized PBMC matrix, Variance is nearly uninformative (ARI 0.048).
+  [PASS] image_matched_mnist (Sec. 5.4, image benchmarks): In the matched protocol of 20 runs, evaluated on pixels only, SSRK's ARI and NMI are significantly higher than those of all four learned baselines and not significantly different from those of Variance, and its coverage efficiency is significantly higher than that of all five baselines.
+         note: checked for MNIST, the dataset of this paragraph; Fashion-MNIST differs in NMI vs Variance: baseline (sentence: ns); NMI vs CAE: ns (sentence: SSRK); NMI vs SSFS: ns (sentence: SSRK); CoverageEff vs Variance: ns (sentence: SSRK); CoverageEff vs STG: baseline (sentence: SSRK)
+  [PASS] uci_acc_f1_means (Sec. 5.5, UCI HAR): its accuracy and macro-F1 (0.949/0.948)
+  [PASS] uci_acc_f1_sig_above (Sec. 5.5, UCI HAR): are significantly above those of STG, CAE, GAEFS, and SSFS
+  [PASS] uci_vs_variance (Sec. 5.5, UCI HAR): not significantly different from those of Variance (accuracy gap $-0.0004$, Holm $p=0.69$)
+  [PASS] uci_no_appended_column (Sec. 5.5, UCI HAR): none of its 20 selections contains an appended column
+  [PASS] uci_domain_lower (Sec. 5.5, UCI HAR): its domain imbalance is significantly lower than that of Variance, STG, CAE, and SSFS
+decisions: SSRK 52 / baseline 4 / n.s. 14
+table: PASS; in-text claims: PASS (16/16)
+
+=== 6/6 bitwise verification against reference/ and the paper  [2026-10-03 05:30:48] ===
+SSRK reproduction check, level B (full retraining in results/)
+  [PASS   ] exact_gaussian eval_main: bitwise vs reference (23 items)
+  [PASS   ] exact_gaussian eval_low: bitwise vs reference (23 items)
+  [PASS   ] exact_gaussian eval_all: bitwise vs reference (24 items)
+  [PASS   ] exact_gaussian ablation_R1: bitwise vs reference (23 items)
+  [PASS   ] exact_gaussian ablation_R5: bitwise vs reference (23 items)
+  [PASS   ] exact_gaussian ablation_nosharpen: bitwise vs reference (23 items)
+  [PASS   ] exact_gaussian ablation_noentropy: bitwise vs reference (23 items)
+  [PASS   ] exact_gaussian ablation_noctx: bitwise vs reference (23 items)
+  [PASS   ] exact_gaussian tuning: bitwise vs reference (18 items)
+  [PASS   ] exact_gaussian swap_audit: bitwise vs reference (4 items)
+  [PASS   ] exact_gaussian Tables 1, A4, A5, A6 byte-identical to the paper; 78 numbers (the 2 compute times excepted)  -- numbers: 78/78 equal to the printed strings; app.max_excess_over_q at printed precision (0.010229 at a=0.20, q=0.15); 2 machine-dependent timings not compared (app.eval_minutes: 13 here vs 17 printed, app.ablation_minutes: 11 here vs 29 printed)
+  [PASS   ] exact_gaussian Figure A1 panel data  -- Figure A1 panel data: byte-identical to reference/exact_gaussian/figureA1_panel_data.csv
+  [PASS   ] pbmc           bootstrap refits: W, Wall, selections, ARI/NMI/markers bitwise (20/20 units)
+  [PASS   ] pbmc           Table A10 identical to the paper rows; 5 stability claims of Sec. 5.3 and App. A.6  -- 11/11 checks true
+  [PASS   ] uci_har        training seeds: W, Wall (3 restarts), selections, HNI, domain imbalance bitwise (20/20)
+  [PASS   ] uci_har        five-seed evaluator records identical (20/20 units)
+  [PASS   ] paired         70 contrasts (gap, BCa interval, sign-randomization p, Holm) identical to the original record
+  [PASS   ] paired         Table A3 byte-identical; 52/4/14 decisions; 16 claims (Abstract, Sec. 5.1, 5.3-5.5, App. A.3.2)  -- decisions: SSRK 52 / baseline 4 / n.s. 14 | table: PASS; in-text claims: PASS (16/16)
+
+18 passed, 0 failed, 0 not run (23 s); logs in results\verify_logs
+
+=== done  [2026-10-03 05:31:11] ===
+EXIT=0

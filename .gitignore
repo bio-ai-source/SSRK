@@ -1,0 +1,11 @@
+# outputs
+results/
+# downloaded data (UCI HAR is not shipped; PBMC h5ad is shipped)
+data/uci_har/
+data/_downloads/
+*.part
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv*/

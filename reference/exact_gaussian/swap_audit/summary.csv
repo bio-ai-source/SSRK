@@ -1,0 +1,5 @@
+parameterization,dtype,trajectories,epochs,max_abs_error_max,max_abs_error_median,max_abs_error_q90,exact_trajectories,selection_changed_q10
+symmetric,float32,100,150,0.0,0.0,0.0,100,0
+symmetric,float64,100,150,0.0,0.0,0.0,100,0
+naive,float32,100,150,0.4630852937698364,0.13459259271621704,0.2617351114749909,0,5
+naive,float64,100,150,5.551115123125783e-16,4.440892098500626e-16,4.440892098500626e-16,0,0

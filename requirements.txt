@@ -1,0 +1,15 @@
+# Direct dependencies of the SSRK reproduction package, pinned to the versions that produced the paper.
+# torch is the CUDA 12.1 build from the official PyTorch index:
+#   pip install -r requirements.txt
+# (the extra index below makes pip find torch==2.5.1+cu121; see ENVIRONMENT.md for the uv variant)
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1+cu121
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.6
+scikit-learn==1.9.1
+threadpoolctl==3.7.0
+anndata==0.13.4
+h5py==3.16.0
+matplotlib==3.11.2
+pytest==9.1.1

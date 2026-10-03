@@ -1,0 +1,166 @@
+{
+  "data/fashion_mnist/t10k-images-idx3-ubyte.gz": {
+    "bytes": 4422102,
+    "sha256": "346e55b948d973a97e58d2351dde16a484bd415d4595297633bb08f03db6a073"
+  },
+  "data/fashion_mnist/t10k-labels-idx1-ubyte.gz": {
+    "bytes": 5148,
+    "sha256": "67da17c76eaffca5446c3361aaab5c3cd6d1c2608764d35dfb1850b086bf8dd5"
+  },
+  "data/fashion_mnist/train-images-idx3-ubyte.gz": {
+    "bytes": 26421880,
+    "sha256": "3aede38d61863908ad78613f6a32ed271626dd12800ba2636569512369268a84"
+  },
+  "data/fashion_mnist/train-labels-idx1-ubyte.gz": {
+    "bytes": 29515,
+    "sha256": "a04f17134ac03560a47e3764e11b92fc97de4d1bfaf8ba1a3aa29af54cc90845"
+  },
+  "data/mnist/t10k-images-idx3-ubyte.gz": {
+    "bytes": 1648877,
+    "sha256": "8d422c7b0a1c1c79245a5bcf07fe86e33eeafee792b84584aec276f5a2dbc4e6"
+  },
+  "data/mnist/t10k-labels-idx1-ubyte.gz": {
+    "bytes": 4542,
+    "sha256": "f7ae60f92e00ec6debd23a6088c31dbd2371eca3ffa0defaefb259924204aec6"
+  },
+  "data/mnist/train-images-idx3-ubyte.gz": {
+    "bytes": 9912422,
+    "sha256": "440fcabf73cc546fa21475e81ea370265605f56be210a4024d2ca8f203523609"
+  },
+  "data/mnist/train-labels-idx1-ubyte.gz": {
+    "bytes": 28881,
+    "sha256": "3552534a0a558bbed6aed32b30c495cca23d567ec52cac8be1a0730e8010255c"
+  },
+  "data/pbmc/pbmc3k_filtered.h5ad": {
+    "bytes": 50399772,
+    "sha256": "7fb648bb7dc28c6a53e87389aa02c02a93c98bc6c59c6cb388522b913636b957"
+  },
+  "data/pbmc/pbmc3k_filtered_gene_bc_matrices.tar.gz": {
+    "bytes": 7621991,
+    "sha256": "847d6ebd9a1ec9a768f2be7e40ca42cbfe75ebeb6d76a4c24167041699dc28b5"
+  },
+  "data/pbmc/pbmc3k_processed.h5ad": {
+    "bytes": 52633500,
+    "sha256": "52f5becad785656ab391d2b41a91bf71344a1f0a39e19d510e61668d6038ad0f"
+  },
+  "data/pbmc/pbmc3k_raw.h5ad": {
+    "bytes": 23011868,
+    "sha256": "24220e5ba16639c6db8eaa81aad5b58220146084309f2132c43f591395da5659"
+  },
+  "data/uci_har/UCI HAR Dataset/activity_labels.txt": {
+    "bytes": 80,
+    "sha256": "f6e6b292704438261f0283b2a82659ab0661447dc16520938bdf379ed1bf8de0"
+  },
+  "data/uci_har/UCI HAR Dataset/features.txt": {
+    "bytes": 15785,
+    "sha256": "b384889885b1c8680ecf250e0e605b4c79536cdf09ce9f2fa7225a3c6773b5c7"
+  },
+  "data/uci_har/UCI HAR Dataset/features_info.txt": {
+    "bytes": 2809,
+    "sha256": "5d7e7d1f204dcfba846043029ef7a15a07c2b3711ee0a122da031f5971b3b585"
+  },
+  "data/uci_har/UCI HAR Dataset/README.txt": {
+    "bytes": 6304,
+    "sha256": "eaee53f45825f349681a1a1b92a997a0082648f9b5bf93ddb3290caeede4b3a8"
+  },
+  "data/uci_har/UCI HAR Dataset/test/Inertial Signals/body_acc_x_test.txt": {
+    "bytes": 6041350,
+    "sha256": "c07eb8ee8c76eafcd94b42111082700e10f4956b769fbbb0d5413c14f38774fa"
+  },
+  "data/uci_har/UCI HAR Dataset/test/Inertial Signals/body_acc_y_test.txt": {
+    "bytes": 6041350,
+    "sha256": "0ed0057b41f6870b16a6953ef17f6d42bc5542fa304319fb6b7f424dd3380f0b"
+  },
+  "data/uci_har/UCI HAR Dataset/test/Inertial Signals/body_acc_z_test.txt": {
+    "bytes": 6041350,
+    "sha256": "a2b58317137533bdbf2342bf301ae854c15b1168259cc7b582c2dd131e3d81d5"
+  },
+  "data/uci_har/UCI HAR Dataset/test/Inertial Signals/body_gyro_x_test.txt": {
+    "bytes": 6041350,
+    "sha256": "fb4f27f13e4e08055043f34ed52f6d8bbe8ebce7dff9475ff92be03b3d3f607c"
+  },
+  "data/uci_har/UCI HAR Dataset/test/Inertial Signals/body_gyro_y_test.txt": {
+    "bytes": 6041350,
+    "sha256": "d2501166b2b1f645b51f722fcf31f3aa1e9a3edae18d49322612f37b4495cb80"
+  },
+  "data/uci_har/UCI HAR Dataset/test/Inertial Signals/body_gyro_z_test.txt": {
+    "bytes": 6041350,
+    "sha256": "90a18ce534be0dfc616cefdac9874e2ea599ae20421cd161361c2a33f40cfa5e"
+  },
+  "data/uci_har/UCI HAR Dataset/test/Inertial Signals/total_acc_x_test.txt": {
+    "bytes": 6041350,
+    "sha256": "ea71c339c828561bc1dc6f7301a54aeb7e61e6312cb2387ebaea832ffd04203d"
+  },
+  "data/uci_har/UCI HAR Dataset/test/Inertial Signals/total_acc_y_test.txt": {
+    "bytes": 6041350,
+    "sha256": "32692c617b40c16e020bf059a316bd6bf3a63d771f030dfc5fa4003f390b6f67"
+  },
+  "data/uci_har/UCI HAR Dataset/test/Inertial Signals/total_acc_z_test.txt": {
+    "bytes": 6041350,
+    "sha256": "622ddf1d9532fbe340472074ef1edd1a2f58aa332682542bb36a8c03c9ba9e04"
+  },
+  "data/uci_har/UCI HAR Dataset/test/subject_test.txt": {
+    "bytes": 7934,
+    "sha256": "63b8c577f4a85431c06bd87f6384608c90a9f72f05c7956dd21255dc63515c07"
+  },
+  "data/uci_har/UCI HAR Dataset/test/X_test.txt": {
+    "bytes": 26458166,
+    "sha256": "99035209add50d17650e847d8a4658d784a5707466ebb7c2deb97c28e5250a78"
+  },
+  "data/uci_har/UCI HAR Dataset/test/y_test.txt": {
+    "bytes": 5894,
+    "sha256": "2a94cb53ca46b956c1b2aebd4a09a72badd8a8e9ea9cdfe9f31b3306a08666bb"
+  },
+  "data/uci_har/UCI HAR Dataset/train/Inertial Signals/body_acc_x_train.txt": {
+    "bytes": 15071600,
+    "sha256": "89f7bf5e360384804439d00f463dd2f717c452c683cac6c0a09b1a191d8ce4a2"
+  },
+  "data/uci_har/UCI HAR Dataset/train/Inertial Signals/body_acc_y_train.txt": {
+    "bytes": 15071600,
+    "sha256": "4775a586a5a1acc6706edee08c685835daea7bc1d9274e7e7e8d660fea173944"
+  },
+  "data/uci_har/UCI HAR Dataset/train/Inertial Signals/body_acc_z_train.txt": {
+    "bytes": 15071600,
+    "sha256": "9155718981ff1331dcd2d30aee545905ffba71af9ece5a08d6dfdeeb7d2ec4fb"
+  },
+  "data/uci_har/UCI HAR Dataset/train/Inertial Signals/body_gyro_x_train.txt": {
+    "bytes": 15071600,
+    "sha256": "423f6806f09059de3c1f443cf1d04a3c3907dc7ee17b5d296ed775b07aa6cde6"
+  },
+  "data/uci_har/UCI HAR Dataset/train/Inertial Signals/body_gyro_y_train.txt": {
+    "bytes": 15071600,
+    "sha256": "42419d8aaefd1a319561998defb167bfa57f7e51d656b6012d5a59c0b10f5260"
+  },
+  "data/uci_har/UCI HAR Dataset/train/Inertial Signals/body_gyro_z_train.txt": {
+    "bytes": 15071600,
+    "sha256": "05bc629faee918b0f5b99cd2e68f860c785889627ec8efeb85c29282f3963988"
+  },
+  "data/uci_har/UCI HAR Dataset/train/Inertial Signals/total_acc_x_train.txt": {
+    "bytes": 15071600,
+    "sha256": "41a7fe1da7b529cc6c2c3d7df97c98752bea74d7a142673dd59c7820fad3b5e6"
+  },
+  "data/uci_har/UCI HAR Dataset/train/Inertial Signals/total_acc_y_train.txt": {
+    "bytes": 15071600,
+    "sha256": "03bd3a80c0c04bf354597ad62920158b4b6605e157d856a1aab9abb357d40c5d"
+  },
+  "data/uci_har/UCI HAR Dataset/train/Inertial Signals/total_acc_z_train.txt": {
+    "bytes": 15071600,
+    "sha256": "5be3b593f88d49bb8f740c1c41379fc928ea8608d706594ebbba81cd800a5a33"
+  },
+  "data/uci_har/UCI HAR Dataset/train/subject_train.txt": {
+    "bytes": 20152,
+    "sha256": "66e1e2fbe9b396fa5155f531dc3348c803f503be663e2318772d49947db9153a"
+  },
+  "data/uci_har/UCI HAR Dataset/train/X_train.txt": {
+    "bytes": 66006256,
+    "sha256": "9c1246099c8d5463779eec5a3845cc3898df9d8c715441ab2a1232d4421fc42f"
+  },
+  "data/uci_har/UCI HAR Dataset/train/y_train.txt": {
+    "bytes": 14704,
+    "sha256": "415b3357e2e2d5e70a45c781947c6bdd80e0410a579d862eedcd6bbce3c694ef"
+  },
+  "data/uci_har/UCI HAR Dataset.names": {
+    "bytes": 6304,
+    "sha256": "eaee53f45825f349681a1a1b92a997a0082648f9b5bf93ddb3290caeede4b3a8"
+  }
+}

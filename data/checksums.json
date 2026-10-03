@@ -1,0 +1,233 @@
+{
+  "format": "ssrk-data-checksums/1",
+  "description": "SHA-256 digests of every data file read by the SSRK reproduction experiments. Paths are relative to the data directory (PKG/data). The file digests equal those of the files that produced the paper's numbers (record: dataset_hashes_release.json of the original study). Archive digests were recorded from the official download on 2026-10-02; they are informational (upstream re-packaging changes them), the extracted files are always verified individually.",
+  "datasets": {
+    "pbmc": {
+      "title": "PBMC 3k test datasets for besca -- processed AnnData (pbmc3k_processed.h5ad)",
+      "creators": "Klas Hatje, Alice Julien-Laferriere (Roche pRED); underlying data: 10x Genomics PBMC 3k",
+      "doi": "10.5281/zenodo.3886414",
+      "landing_page": "https://zenodo.org/records/3886414",
+      "license": "AGPL-3.0-only (as declared on the Zenodo record)",
+      "license_text": {
+        "path": "pbmc/LICENSE",
+        "bytes": 34523,
+        "sha256": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+        "source": "https://www.gnu.org/licenses/agpl-3.0.txt",
+        "note": "unmodified canonical text of the GNU Affero General Public License v3.0; shipped with the PBMC file (not read by the experiments)"
+      },
+      "notice": "pbmc/NOTICE.md",
+      "shipped": true,
+      "files": {
+        "pbmc/pbmc3k_processed.h5ad": {
+          "bytes": 52633500,
+          "sha256": "52f5becad785656ab391d2b41a91bf71344a1f0a39e19d510e61668d6038ad0f",
+          "md5": "1a39f94c6a62a088941a5e4296f31f39",
+          "required": true,
+          "used_for": "X (2504 x 1719, float32), Leiden labels (obs['leiden'], 12 clusters), gene names (var_names)",
+          "urls": [
+            "https://zenodo.org/records/3886414/files/pbmc3k_processed.h5ad?download=1",
+            "https://zenodo.org/api/records/3886414/files/pbmc3k_processed.h5ad/content"
+          ]
+        }
+      }
+    },
+    "uci_har": {
+      "title": "Human Activity Recognition Using Smartphones (UCI HAR), version 1.0",
+      "creators": "Jorge Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra",
+      "doi": "10.24432/C54S4K",
+      "landing_page": "https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones",
+      "license": "CC BY 4.0 (UCI Machine Learning Repository)",
+      "shipped": false,
+      "archive": {
+        "name": "human+activity+recognition+using+smartphones.zip",
+        "urls": [
+          "https://archive.ics.uci.edu/static/public/240/human+activity+recognition+using+smartphones.zip"
+        ],
+        "bytes": 61005872,
+        "sha256": "c00b803081a5c797cd5e4b83700a9810b38d53d9d84e01917e090e1fdbc81031",
+        "recorded": "2026-10-02",
+        "contains": [
+          "UCI HAR Dataset.names",
+          "UCI HAR Dataset.zip"
+        ]
+      },
+      "inner_archive": {
+        "name": "UCI HAR Dataset.zip",
+        "bytes": 60999314,
+        "sha256": "2045e435c955214b38145fb5fa00776c72814f01b203fec405152dac7d5bfeb0",
+        "recorded": "2026-10-02"
+      },
+      "extract_root": "uci_har",
+      "files": {
+        "uci_har/UCI HAR Dataset/features.txt": {
+          "bytes": 15785,
+          "sha256": "b384889885b1c8680ecf250e0e605b4c79536cdf09ce9f2fa7225a3c6773b5c7",
+          "required": true,
+          "used_for": "561 feature names (time/frequency domain -> domain-imbalance metric)"
+        },
+        "uci_har/UCI HAR Dataset/activity_labels.txt": {
+          "bytes": 80,
+          "sha256": "f6e6b292704438261f0283b2a82659ab0661447dc16520938bdf379ed1bf8de0",
+          "required": true,
+          "used_for": "names of the six activity classes (reporting only)"
+        },
+        "uci_har/UCI HAR Dataset/train/X_train.txt": {
+          "bytes": 66006256,
+          "sha256": "9c1246099c8d5463779eec5a3845cc3898df9d8c715441ab2a1232d4421fc42f",
+          "required": true,
+          "used_for": "training features, 7352 x 561 (np.loadtxt, float32)"
+        },
+        "uci_har/UCI HAR Dataset/train/y_train.txt": {
+          "bytes": 14704,
+          "sha256": "415b3357e2e2d5e70a45c781947c6bdd80e0410a579d862eedcd6bbce3c694ef",
+          "required": true,
+          "used_for": "training labels 1..6 (experiments use label - 1)"
+        },
+        "uci_har/UCI HAR Dataset/train/subject_train.txt": {
+          "bytes": 20152,
+          "sha256": "66e1e2fbe9b396fa5155f531dc3348c803f503be663e2318772d49947db9153a",
+          "required": true,
+          "used_for": "training subject ids 1..30 (subject-wise validation split used for tuning only)"
+        },
+        "uci_har/UCI HAR Dataset/test/X_test.txt": {
+          "bytes": 26458166,
+          "sha256": "99035209add50d17650e847d8a4658d784a5707466ebb7c2deb97c28e5250a78",
+          "required": true,
+          "used_for": "test features, 2947 x 561 (np.loadtxt, float32)"
+        },
+        "uci_har/UCI HAR Dataset/test/y_test.txt": {
+          "bytes": 5894,
+          "sha256": "2a94cb53ca46b956c1b2aebd4a09a72badd8a8e9ea9cdfe9f31b3306a08666bb",
+          "required": true,
+          "used_for": "test labels 1..6 (experiments use label - 1)"
+        },
+        "uci_har/UCI HAR Dataset/test/subject_test.txt": {
+          "bytes": 7934,
+          "sha256": "63b8c577f4a85431c06bd87f6384608c90a9f72f05c7956dd21255dc63515c07",
+          "required": true,
+          "used_for": "test subject ids (official split metadata; not read by the experiments)"
+        },
+        "uci_har/UCI HAR Dataset/README.txt": {
+          "bytes": 6304,
+          "sha256": "eaee53f45825f349681a1a1b92a997a0082648f9b5bf93ddb3290caeede4b3a8",
+          "required": true,
+          "used_for": "dataset README (license/citation terms of the creators)"
+        },
+        "uci_har/UCI HAR Dataset/features_info.txt": {
+          "bytes": 2809,
+          "sha256": "5d7e7d1f204dcfba846043029ef7a15a07c2b3711ee0a122da031f5971b3b585",
+          "required": true,
+          "used_for": "description of the 561 features"
+        },
+        "uci_har/UCI HAR Dataset/train/Inertial Signals/body_acc_x_train.txt": {
+          "bytes": 15071600,
+          "sha256": "89f7bf5e360384804439d00f463dd2f717c452c683cac6c0a09b1a191d8ce4a2",
+          "required": false,
+          "used_for": "raw inertial signal (not used; extracted only with --uci-full)"
+        },
+        "uci_har/UCI HAR Dataset/train/Inertial Signals/body_acc_y_train.txt": {
+          "bytes": 15071600,
+          "sha256": "4775a586a5a1acc6706edee08c685835daea7bc1d9274e7e7e8d660fea173944",
+          "required": false,
+          "used_for": "raw inertial signal (not used; extracted only with --uci-full)"
+        },
+        "uci_har/UCI HAR Dataset/train/Inertial Signals/body_acc_z_train.txt": {
+          "bytes": 15071600,
+          "sha256": "9155718981ff1331dcd2d30aee545905ffba71af9ece5a08d6dfdeeb7d2ec4fb",
+          "required": false,
+          "used_for": "raw inertial signal (not used; extracted only with --uci-full)"
+        },
+        "uci_har/UCI HAR Dataset/train/Inertial Signals/body_gyro_x_train.txt": {
+          "bytes": 15071600,
+          "sha256": "423f6806f09059de3c1f443cf1d04a3c3907dc7ee17b5d296ed775b07aa6cde6",
+          "required": false,
+          "used_for": "raw inertial signal (not used; extracted only with --uci-full)"
+        },
+        "uci_har/UCI HAR Dataset/train/Inertial Signals/body_gyro_y_train.txt": {
+          "bytes": 15071600,
+          "sha256": "42419d8aaefd1a319561998defb167bfa57f7e51d656b6012d5a59c0b10f5260",
+          "required": false,
+          "used_for": "raw inertial signal (not used; extracted only with --uci-full)"
+        },
+        "uci_har/UCI HAR Dataset/train/Inertial Signals/body_gyro_z_train.txt": {
+          "bytes": 15071600,
+          "sha256": "05bc629faee918b0f5b99cd2e68f860c785889627ec8efeb85c29282f3963988",
+          "required": false,
+          "used_for": "raw inertial signal (not used; extracted only with --uci-full)"
+        },
+        "uci_har/UCI HAR Dataset/train/Inertial Signals/total_acc_x_train.txt": {
+          "bytes": 15071600,
+          "sha256": "41a7fe1da7b529cc6c2c3d7df97c98752bea74d7a142673dd59c7820fad3b5e6",
+          "required": false,
+          "used_for": "raw inertial signal (not used; extracted only with --uci-full)"
+        },
+        "uci_har/UCI HAR Dataset/train/Inertial Signals/total_acc_y_train.txt": {
+          "bytes": 15071600,
+          "sha256": "03bd3a80c0c04bf354597ad62920158b4b6605e157d856a1aab9abb357d40c5d",
+          "required": false,
+          "used_for": "raw inertial signal (not used; extracted only with --uci-full)"
+        },
+        "uci_har/UCI HAR Dataset/train/Inertial Signals/total_acc_z_train.txt": {
+          "bytes": 15071600,
+          "sha256": "5be3b593f88d49bb8f740c1c41379fc928ea8608d706594ebbba81cd800a5a33",
+          "required": false,
+          "used_for": "raw inertial signal (not used; extracted only with --uci-full)"
+        },
+        "uci_har/UCI HAR Dataset/test/Inertial Signals/body_acc_x_test.txt": {
+          "bytes": 6041350,
+          "sha256": "c07eb8ee8c76eafcd94b42111082700e10f4956b769fbbb0d5413c14f38774fa",
+          "required": false,
+          "used_for": "raw inertial signal (not used; extracted only with --uci-full)"
+        },
+        "uci_har/UCI HAR Dataset/test/Inertial Signals/body_acc_y_test.txt": {
+          "bytes": 6041350,
+          "sha256": "0ed0057b41f6870b16a6953ef17f6d42bc5542fa304319fb6b7f424dd3380f0b",
+          "required": false,
+          "used_for": "raw inertial signal (not used; extracted only with --uci-full)"
+        },
+        "uci_har/UCI HAR Dataset/test/Inertial Signals/body_acc_z_test.txt": {
+          "bytes": 6041350,
+          "sha256": "a2b58317137533bdbf2342bf301ae854c15b1168259cc7b582c2dd131e3d81d5",
+          "required": false,
+          "used_for": "raw inertial signal (not used; extracted only with --uci-full)"
+        },
+        "uci_har/UCI HAR Dataset/test/Inertial Signals/body_gyro_x_test.txt": {
+          "bytes": 6041350,
+          "sha256": "fb4f27f13e4e08055043f34ed52f6d8bbe8ebce7dff9475ff92be03b3d3f607c",
+          "required": false,
+          "used_for": "raw inertial signal (not used; extracted only with --uci-full)"
+        },
+        "uci_har/UCI HAR Dataset/test/Inertial Signals/body_gyro_y_test.txt": {
+          "bytes": 6041350,
+          "sha256": "d2501166b2b1f645b51f722fcf31f3aa1e9a3edae18d49322612f37b4495cb80",
+          "required": false,
+          "used_for": "raw inertial signal (not used; extracted only with --uci-full)"
+        },
+        "uci_har/UCI HAR Dataset/test/Inertial Signals/body_gyro_z_test.txt": {
+          "bytes": 6041350,
+          "sha256": "90a18ce534be0dfc616cefdac9874e2ea599ae20421cd161361c2a33f40cfa5e",
+          "required": false,
+          "used_for": "raw inertial signal (not used; extracted only with --uci-full)"
+        },
+        "uci_har/UCI HAR Dataset/test/Inertial Signals/total_acc_x_test.txt": {
+          "bytes": 6041350,
+          "sha256": "ea71c339c828561bc1dc6f7301a54aeb7e61e6312cb2387ebaea832ffd04203d",
+          "required": false,
+          "used_for": "raw inertial signal (not used; extracted only with --uci-full)"
+        },
+        "uci_har/UCI HAR Dataset/test/Inertial Signals/total_acc_y_test.txt": {
+          "bytes": 6041350,
+          "sha256": "32692c617b40c16e020bf059a316bd6bf3a63d771f030dfc5fa4003f390b6f67",
+          "required": false,
+          "used_for": "raw inertial signal (not used; extracted only with --uci-full)"
+        },
+        "uci_har/UCI HAR Dataset/test/Inertial Signals/total_acc_z_test.txt": {
+          "bytes": 6041350,
+          "sha256": "622ddf1d9532fbe340472074ef1edd1a2f58aa332682542bb36a8c03c9ba9e04",
+          "required": false,
+          "used_for": "raw inertial signal (not used; extracted only with --uci-full)"
+        }
+      }
+    }
+  }
+}

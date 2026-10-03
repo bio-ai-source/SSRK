@@ -1,0 +1,14 @@
+\begin{tabular}{rcrlcccc}
+\toprule
+$R$ & Gate learning rate & Epochs & Variant & $a=0.20$ & $a=0.30$ & Mean & All-null nonempty\\
+\midrule
+1 & $2\times10^{-2}$ & 150 & full & .033 & .400 & .217 & 0/20\\
+5 & $2\times10^{-2}$ & 150 & full & .270 & .878 & .574 & 0/20\\
+10 & $2\times10^{-2}$ & 150 & full & .497 & .958 & .728 & 0/20\\
+20$^\star$ & $2\times10^{-2}$ & 150 & full & .652 & .982 & .817 & 0/20\\
+10 & $5\times10^{-3}$ & 150 & full & .570 & .965 & .767 & 0/20\\
+10 & $5\times10^{-3}$ & 300 & full & .590 & .958 & .774 & 0/20\\
+10 & $2\times10^{-2}$ & 150 & no sharpening & .505 & .960 & .732 & 0/20\\
+10 & $2\times10^{-2}$ & 150 & no target context & .373 & .942 & .658 & 0/20\\
+\bottomrule
+\end{tabular}

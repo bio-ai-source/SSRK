@@ -1,0 +1,9 @@
+{
+ "source": "revised/cr2/results/paired_v3_final.csv (ssrk_mean, dataset uci_har)",
+ "means": {
+  "Accuracy": 0.9488700373260943,
+  "F1_macro": 0.9484770876470258,
+  "HNI": 0.0,
+  "DomainBalance": 0.13394247404844292
+ }
+}
